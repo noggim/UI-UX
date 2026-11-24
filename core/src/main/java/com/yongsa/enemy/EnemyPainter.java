@@ -37,6 +37,8 @@ public class EnemyPainter {
     private final ActorInk actorInk;
     private final Effects fx;
     private final Particles particles;
+    /** 패턴 동작 시트·일반 몹 시트·효과 시트 (김선우). */
+    private final PatternArt pat;
     private final int T;
     private float time;
     private float viewX0, viewY0, viewX1, viewY1;
@@ -49,6 +51,7 @@ public class EnemyPainter {
         this.actorInk = actorInk;
         this.fx = fx;
         this.particles = fx.particles();
+        this.pat = new PatternArt(g, art, batch);
         this.T = g.balance.tileSize;
     }
 
@@ -130,6 +133,7 @@ public class EnemyPainter {
                 break;
             case HAZARD_FX:
                 hazardFx(e);
+                pat.onHazardFx(e);
                 break;
             case BOSS_PHASE2:
                 ring(e.x, e.y - 20, 20, 420, 1.2f, PROJ_DARK);
@@ -153,6 +157,7 @@ public class EnemyPainter {
     public void clear() {
         eyeFlashes.clear();
         corpses.clear();
+        pat.clear();
     }
 
     /** 잠을 자면 눈 효과만 지운다. */
@@ -163,6 +168,7 @@ public class EnemyPainter {
     /** 매 프레임: 눈·시체·등장 효과와 피웅덩이 거품. */
     public void update(float dt, float time) {
         this.time = time;
+        pat.update(dt, time);
         for (float[] e : eyeFlashes) e[3] += dt;
         eyeFlashes.removeIf(e -> e[3] >= 0.45f);
         // 피웅덩이에서 피어오르는 거품
@@ -260,6 +266,7 @@ public class EnemyPainter {
             out.add(m.y, () -> drawMonster(m));
         }
         for (Corpse c : corpses) out.add(c.y, () -> drawCorpse(c));
+        pat.collect(out);
     }
 
     /** 빛나는 효과 (더하기 섞기 batch 안에서): 기운, 방패, 모으는 빛, 낙뢰 예고, 투사체. */
@@ -335,6 +342,8 @@ public class EnemyPainter {
             }
         }
         for (Projectile p : g.projectiles) {
+            // 검기·탄·구체는 효과 시트 그림으로, 날아가는 방향(360도)에 맞춰 돌려 그린다
+            if (pat.drawProjectile(p)) continue;
             if ("crescent".equals(p.source) && drawCrescent(p)) continue;
             Color c = projectileColor(p.source);
             float r = p.radius;
@@ -447,8 +456,15 @@ public class EnemyPainter {
     }
 
     private void drawBossSheet(Monster m, String sheet) {
-        int[] pose = bossPose(m);
-        TextureRegion r = bossCell(sheet, pose[0], pose[1]);
+        TextureRegion r = null;
+        if (sheet != null) {
+            int[] pose = bossPose(m);
+            r = bossCell(sheet, pose[0], pose[1]);
+        }
+        // 패턴 중이면 그 패턴의 줄 (예고 동안 앞 4칸, 공격이 나간 뒤 뒤 4칸)
+        TextureRegion pr = pat.bossPatternCell(m);
+        if (pr != null) r = pr;
+        if (r == null) return;
         float appear = m.state == Monster.State.SPAWN ? Math.max(0f, (m.progress() - 0.35f) / 0.65f) : 1f;
         if (appear <= 0f) return;
         float k = sheetScale(m) * appear;
@@ -460,7 +476,7 @@ public class EnemyPainter {
         float lift = m.state == Monster.State.LEAP ? MathUtils.sin(m.progress() * MathUtils.PI) * 70f : 0f; // 뒤로 도약
         float x0 = m.x + jx - size / 2f, y0 = m.y - (BOSS_CELL - BOSS_FOOT) * k + lift;
         if (m.warning()) batch.setColor(1f, 0.8f, 0.7f, appear);
-        else if (m.finalBoss && m.phase2 && sheet.endsWith("boss_lich.png")) batch.setColor(0.95f, 0.62f + 0.08f * MathUtils.sin(time * 6f), 0.95f, appear); // 시트가 없는 경우만 임시 색상을 쓴다.
+        else if (m.finalBoss && m.phase2 && sheet != null && sheet.endsWith("boss_lich.png")) batch.setColor(0.95f, 0.62f + 0.08f * MathUtils.sin(time * 6f), 0.95f, appear); // 시트가 없는 경우만 임시 색상을 쓴다.
         else if (m.enraged) batch.setColor(1f, 0.75f + 0.1f * MathUtils.sin(time * 8f), 0.7f, appear);
         else batch.setColor(1f, 1f, 1f, appear);
         actorInk.draw(batch, r, faceRight ? x0 + size : x0, y0, faceRight ? -size : size, size);
@@ -741,14 +757,19 @@ public class EnemyPainter {
 
     /** Overhead UI follows the same pose as the sprite, not the lower-body combat circle. */
     public float monsterTop(Monster m) {
-        if (m.boss && bossSheet(m.def.sprite, m.phase2) != null) return m.y + BOSS_BODY * sheetScale(m);
+        if (m.boss && (bossSheet(m.def.sprite, m.phase2) != null || pat.hasOwnSheet(m))) return m.y + BOSS_BODY * sheetScale(m);
+        if (pat.hasMobSheet(m)) return m.y - 2 + monsterBob(m) + pat.mobCellSize(m, art.height(art.world(m.def.sprite)) * monsterScale(m)) * 0.62f;
         return m.y - 2 + monsterBob(m) + art.height(art.world(m.def.sprite)) * monsterScale(m) * monsterStretchY(m);
     }
 
     private void drawMonster(Monster m) {
         String sheet = m.boss ? bossSheet(m.def.sprite, m.phase2) : null;
-        if (sheet != null) {
+        if (sheet != null || pat.hasOwnSheet(m)) {
             drawBossSheet(m, sheet);
+            return;
+        }
+        if (pat.hasMobSheet(m)) {
+            drawMobSheet(m);
             return;
         }
         TextureRegion r = art.world(m.def.sprite);
@@ -799,6 +820,37 @@ public class EnemyPainter {
             for (int i = 0; i < 2; i++) {
                 if (flip) batch.draw(r, mx + dw / 2f, m.y - 2 + bob, -dw, dh);
                 else batch.draw(r, mx - dw / 2f, m.y - 2 + bob, dw, dh);
+            }
+            Particles.normal(batch);
+        }
+        batch.setColor(Color.WHITE);
+    }
+
+    /** 일반 몹 동작 시트 (8칸을 시간에 맞춰 넘긴다). 그림은 왼쪽을 보고, 용사 쪽으로 좌우를 뒤집는다. */
+    private void drawMobSheet(Monster m) {
+        TextureRegion r = pat.mobCell(m);
+        if (r == null) return;
+        float appear = m.state == Monster.State.SPAWN ? Math.max(0f, (m.progress() - 0.35f) / 0.65f) : 1f;
+        if (appear <= 0f) return;
+        TextureRegion old = art.world(m.def.sprite);
+        float oldH = art.height(old) * monsterScale(m);
+        float size = pat.mobCellSize(m, oldH) * appear;
+        drawActorShadow(m.x, m.y, art.width(old) * monsterScale(m) * 0.8f * appear, appear, "bat".equals(m.def.sprite));
+        float bob = m.state == Monster.State.DOWNED ? 0 : monsterBob(m);
+        float jx = m.state == Monster.State.STUNNED ? MathUtils.sin(time * 14f) * 1.5f : 0f;
+        boolean faceRight = m.dirX > 0.2f;
+        float x0 = m.x + jx - size / 2f, y0 = m.y - 2 + bob - size * (PatternArt.CELL - PatternArt.FOOT) / PatternArt.CELL;
+        if (m.state == Monster.State.DOWNED) batch.setColor(0.75f, 0.75f, 0.8f, appear);
+        else if (m.warning()) batch.setColor(1f, 0.8f, 0.7f, appear);
+        else if (m.enraged) batch.setColor(1f, 0.75f + 0.1f * MathUtils.sin(time * 8f), 0.7f, appear);
+        else batch.setColor(1f, 1f, 1f, appear);
+        actorInk.draw(batch, r, faceRight ? x0 + size : x0, y0, faceRight ? -size : size, size);
+        if (m.flash > 0) {
+            Particles.additive(batch);
+            batch.setColor(1f, 1f, 1f, Math.min(1f, m.flash / 0.15f));
+            for (int i = 0; i < 2; i++) {
+                if (faceRight) batch.draw(r, x0 + size, y0, -size, size);
+                else batch.draw(r, x0, y0, size, size);
             }
             Particles.normal(batch);
         }
