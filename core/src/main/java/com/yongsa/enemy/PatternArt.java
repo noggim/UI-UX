@@ -165,23 +165,23 @@ public class PatternArt {
             case CAST_TELEGRAPH:
             case SLAM_TELEGRAPH:
                 if (row == null) break;
-                return cell(s, row, four);
+                return bcell(m, s, row, four);
             case CHARGE_TELEGRAPH:
-                if (s.row.containsKey("rush")) return cell(s, s.row.get("rush"), Math.min(1, (int) (pr * 2)));
+                if (s.row.containsKey("rush")) return bcell(m, s, s.row.get("rush"), Math.min(1, (int) (pr * 2)));
                 break;
             case CHARGING:
-                if (s.row.containsKey("rush")) return cell(s, s.row.get("rush"), 2 + ((int) (time * 12)) % 4);
+                if (s.row.containsKey("rush")) return bcell(m, s, s.row.get("rush"), 2 + ((int) (time * 12)) % 4);
                 break;
             case STUNNED:
-                if (s.row.containsKey("stun")) return cell(s, s.row.get("stun"), 2 + ((int) (time * 6)) % 6);
+                if (s.row.containsKey("stun")) return bcell(m, s, s.row.get("stun"), 2 + ((int) (time * 6)) % 6);
                 break;
             case LEAP:
-                if (s.row.containsKey("leap")) return cell(s, s.row.get("leap"), eight);
+                if (s.row.containsKey("leap")) return bcell(m, s, s.row.get("leap"), eight);
                 break;
             case CHANNEL:
                 if (row != null) {
-                    if ("spearstand".equals(m.channelKind)) return cell(s, row, 3 + ((int) (time * 6)) % 3);
-                    return cell(s, row, 2 + ((int) (time * 10)) % 4);
+                    if ("spearstand".equals(m.channelKind)) return bcell(m, s, row, 3 + ((int) (time * 6)) % 3);
+                    return bcell(m, s, row, 2 + ((int) (time * 10)) % 4);
                 }
                 break;
             case RECOVER: {
@@ -203,7 +203,7 @@ public class PatternArt {
                 }
                 if (t.recRow != null && s.row.containsKey(t.recRow)) {
                     int r = s.row.get(t.recRow);
-                    return cell(s, r, t.recFull ? eight : 4 + four);
+                    return bcell(m, s, r, t.recFull ? eight : 4 + four);
                 }
                 break;
             }
@@ -212,12 +212,41 @@ public class PatternArt {
         }
         if (s == WARDEN) {
             // 수문장 기본 동작: 걷기·대기, 기본 근접 공격은 유도 마탄 줄의 팔 뻗기로
-            if (m.state == Monster.State.TELEGRAPH || m.state == Monster.State.COMBO_TELEGRAPH) return cell(s, 2, four);
-            if (m.state == Monster.State.RECOVER) return cell(s, 2, 4 + four);
-            if (moved) return cell(s, 0, 4 + ((int) (t.moveT * 7)) % 4);
-            return cell(s, 0, ((int) (time * 5.5f)) % 4);
+            if (m.state == Monster.State.TELEGRAPH || m.state == Monster.State.COMBO_TELEGRAPH) return bcell(m, s, 2, four);
+            if (m.state == Monster.State.RECOVER) return bcell(m, s, 2, 4 + four);
+            if (moved) return bcell(m, s, 0, 4 + ((int) (t.moveT * 7)) % 4);
+            return bcell(m, s, 0, ((int) (time * 5.5f)) % 4);
         }
         return null;
+    }
+
+    /** 골렘 돌진·내려찍기의 앞·뒤·대각선 그림 (8줄: 내려찍기 앞/앞대각/뒤/뒤대각, 돌진 앞/앞대각/뒤/뒤대각). */
+    private static final String GOLEM_DIR = "team/noggim/boss_golem_dir.png";
+
+    /**
+     * 보스 칸. 골렘 돌진·내려찍기는 바라보는 방향(dirX, dirY)에 따라 옆·앞·뒤·대각선 그림을 고른다.
+     * 좌우는 그리는 쪽에서 뒤집으므로 옆 2 + 앞 + 뒤 + 대각선 4 = 8방향이 된다.
+     */
+    private TextureRegion bcell(Monster m, PatSheet s, int row, int col) {
+        if (s == GOLEM && (row == 0 || row == 1) && has(GOLEM_DIR)) {
+            int view = view(m.dirX, m.dirY);
+            if (view >= 0) {
+                int base = row == 1 ? 0 : 4; // 내려찍기 0~3줄, 돌진 4~7줄
+                return art.cell(GOLEM_DIR, 8, 8, (base + view) * 8 + MathUtils.clamp(col, 0, 7));
+            }
+        }
+        return cell(s, row, col);
+    }
+
+    /** 바라보는 방향 → -1 옆, 0 앞(아래), 1 앞 대각선, 2 뒤(위), 3 뒤 대각선. y 는 위가 +. */
+    static int view(float dx, float dy) {
+        float l = (float) Math.sqrt(dx * dx + dy * dy);
+        if (l < 0.01f) return -1;
+        float ax = Math.abs(dx) / l, ay = dy / l;
+        if (Math.abs(ay) < 0.38f) return -1;          // 옆 (가로 ±22도)
+        boolean down = ay < 0;
+        if (ax < 0.38f) return down ? 0 : 2;          // 바로 아래 / 바로 위
+        return down ? 1 : 3;                           // 대각선
     }
 
     private TextureRegion cell(PatSheet s, int row, int col) {
