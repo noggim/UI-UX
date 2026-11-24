@@ -1,0 +1,1413 @@
+{
+  "version": 1,
+  "notes": "Source rect, foot and hand use top-left absolute source PNG pixels. Display box64x72; ground atx32/y68. Rows south,north,east,southeast,northeast. Idleframe2. Left directions mirror at render time. Hands name the artwork-side anatomical right fist before mirroring. Roll uses handVisible=false where tucked/occluded; keep sword hidden during tumble.",
+  "sources": {
+    "walk": {
+      "path": "sprites/hero-motion/harmony/walk.png",
+      "width": 3840,
+      "height": 1536,
+      "sha256": "5d0a31d3c2617d5d12c1378f1b89ba26f68b33f052a8508951da027a3f0bb56d"
+    },
+    "roll": {
+      "path": "sprites/hero-motion/harmony/roll.png",
+      "width": 1672,
+      "height": 941,
+      "sha256": "01707cf98cd0dd86b89fd10e311f4dc4783cf1c63e717bf1fe566fd8e1d374de"
+    },
+    "walk-diag": {
+      "path": "sprites/hero-motion/harmony/walk-diag.png",
+      "width": 3840,
+      "height": 1536,
+      "sha256": "4e584830cb9b97bdabe372b5f0bf4a8ed09b2b2386947eb2a5ccd7a0f1e4fe62"
+    },
+    "roll-diag": {
+      "path": "sprites/hero-motion/harmony/roll-diag.png",
+      "width": 2048,
+      "height": 768,
+      "sha256": "64f0ba6321599585230f4a6d7161812c1ceec41f3ae5f6bb96b15b8e00eb1783"
+    },
+    "walk-side": {
+      "path": "sprites/hero-motion/harmony/walk-side.png",
+      "width": 3840,
+      "height": 768,
+      "sha256": "60dd3d01f37071aeb8613452f7d5a952114033cfbfdb1b1a90bd77b2d38784d2"
+    }
+  },
+  "walk": [
+    [
+      {
+        "source": "walk",
+        "rect": [
+          161,
+          37,
+          317,
+          703
+        ],
+        "foot": [
+          316.85096153846155,
+          736.0
+        ],
+        "pixelsPerWorld": 12.017241379310345,
+        "hand": [
+          216,
+          372
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          794,
+          39,
+          332,
+          701
+        ],
+        "foot": [
+          960.8030703202377,
+          734.0
+        ],
+        "pixelsPerWorld": 11.84549356223176,
+        "hand": [
+          839,
+          429
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          1528,
+          426,
+          144,
+          314
+        ],
+        "foot": [
+          1601.0,
+          739.0
+        ],
+        "pixelsPerWorld": 5.379310344827586,
+        "hand": [
+          1549.6,
+          611.3
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          2076,
+          37,
+          328,
+          703
+        ],
+        "foot": [
+          2243.841346153846,
+          736.0
+        ],
+        "pixelsPerWorld": 11.982758620689655,
+        "hand": [
+          2124,
+          437
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          2720,
+          38,
+          320,
+          702
+        ],
+        "foot": [
+          2879.312644437108,
+          735.0
+        ],
+        "pixelsPerWorld": 11.879828326180258,
+        "hand": [
+          2765,
+          428
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          3354,
+          39,
+          332,
+          701
+        ],
+        "foot": [
+          3520.8030703202376,
+          734.0
+        ],
+        "pixelsPerWorld": 11.84549356223176,
+        "hand": [
+          3399,
+          429
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "walk",
+        "rect": [
+          166,
+          804,
+          308,
+          704
+        ],
+        "foot": [
+          305.85526315789474,
+          1503.0
+        ],
+        "pixelsPerWorld": 12.0,
+        "hand": [
+          436,
+          1204
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          802,
+          818,
+          315,
+          690
+        ],
+        "foot": [
+          951.8896543934944,
+          1504.0
+        ],
+        "pixelsPerWorld": 11.639484978540773,
+        "hand": [
+          1082,
+          1188
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          1526,
+          1202,
+          148,
+          306
+        ],
+        "foot": [
+          1601.0,
+          1507.0
+        ],
+        "pixelsPerWorld": 5.241379310344827,
+        "hand": [
+          1656.2,
+          1388.7
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          2075,
+          805,
+          330,
+          703
+        ],
+        "foot": [
+          2245.860197368421,
+          1503.0
+        ],
+        "pixelsPerWorld": 11.948275862068966,
+        "hand": [
+          2375,
+          1135
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          2723,
+          816,
+          314,
+          692
+        ],
+        "foot": [
+          2875.8798283261804,
+          1503.0
+        ],
+        "pixelsPerWorld": 11.742489270386265,
+        "hand": [
+          3003,
+          1186
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk",
+        "rect": [
+          3362,
+          818,
+          315,
+          690
+        ],
+        "foot": [
+          3511.8896543934943,
+          1504.0
+        ],
+        "pixelsPerWorld": 11.639484978540773,
+        "hand": [
+          3642,
+          1188
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "walk-side",
+        "rect": [
+          90,
+          84,
+          460,
+          656
+        ],
+        "foot": [
+          270.6097080542832,
+          734.0
+        ],
+        "pixelsPerWorld": 11.10344827586207,
+        "hand": [
+          200,
+          464
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-side",
+        "rect": [
+          789,
+          79,
+          342,
+          661
+        ],
+        "foot": [
+          940.547457348444,
+          733.0
+        ],
+        "pixelsPerWorld": 11.124463519313304,
+        "hand": [
+          939,
+          464
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-side",
+        "rect": [
+          1548,
+          470,
+          104,
+          270
+        ],
+        "foot": [
+          1589.0,
+          737
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1582.3,
+          640.1
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-side",
+        "rect": [
+          2005,
+          88,
+          469,
+          652
+        ],
+        "foot": [
+          2193.762923699993,
+          734.0
+        ],
+        "pixelsPerWorld": 11.051724137931034,
+        "hand": [
+          2355,
+          438
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-side",
+        "rect": [
+          2702,
+          81,
+          355,
+          659
+        ],
+        "foot": [
+          2857.047457348444,
+          733.0
+        ],
+        "pixelsPerWorld": 11.124463519313304,
+        "hand": [
+          2872,
+          466
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-side",
+        "rect": [
+          3349,
+          79,
+          342,
+          661
+        ],
+        "foot": [
+          3500.547457348444,
+          733.0
+        ],
+        "pixelsPerWorld": 11.124463519313304,
+        "hand": [
+          3499,
+          464
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "walk-diag",
+        "rect": [
+          79,
+          48,
+          481,
+          692
+        ],
+        "foot": [
+          302.5777777777778,
+          735.0
+        ],
+        "pixelsPerWorld": 11.758620689655173,
+        "hand": [
+          179,
+          383
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          763,
+          52,
+          394,
+          688
+        ],
+        "foot": [
+          974.0120648545542,
+          736.0
+        ],
+        "pixelsPerWorld": 11.656652360515022,
+        "hand": [
+          938,
+          437
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          1520,
+          378,
+          160,
+          362
+        ],
+        "foot": [
+          1611.0,
+          739.0
+        ],
+        "pixelsPerWorld": 6.206896551724138,
+        "hand": [
+          1548.8,
+          588.0
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          1971,
+          51,
+          537,
+          689
+        ],
+        "foot": [
+          2196.0666666666666,
+          736.0
+        ],
+        "pixelsPerWorld": 11.741379310344827,
+        "hand": [
+          2216,
+          406
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          2670,
+          52,
+          419,
+          688
+        ],
+        "foot": [
+          2896.023128278493,
+          736.0
+        ],
+        "pixelsPerWorld": 11.67381974248927,
+        "hand": [
+          2820,
+          437
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          3323,
+          52,
+          394,
+          688
+        ],
+        "foot": [
+          3534.012064854554,
+          736.0
+        ],
+        "pixelsPerWorld": 11.656652360515022,
+        "hand": [
+          3498,
+          437
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "walk-diag",
+        "rect": [
+          113,
+          837,
+          413,
+          671
+        ],
+        "foot": [
+          344.94166666666666,
+          1500.0
+        ],
+        "pixelsPerWorld": 11.258620689655173,
+        "hand": [
+          458,
+          1217
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          767,
+          838,
+          385,
+          670
+        ],
+        "foot": [
+          998.9266094420601,
+          1502.0
+        ],
+        "pixelsPerWorld": 11.227467811158798,
+        "hand": [
+          1112,
+          1218
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          1514,
+          1146,
+          172,
+          362
+        ],
+        "foot": [
+          1618.0,
+          1507.0
+        ],
+        "pixelsPerWorld": 6.206896551724138,
+        "hand": [
+          1663.6,
+          1363.2
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          2015,
+          818,
+          450,
+          690
+        ],
+        "foot": [
+          2256.116666666667,
+          1503.0
+        ],
+        "pixelsPerWorld": 11.620689655172415,
+        "hand": [
+          2435,
+          1073
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          2686,
+          855,
+          387,
+          653
+        ],
+        "foot": [
+          2930.76895565093,
+          1502.0
+        ],
+        "pixelsPerWorld": 10.901287553648068,
+        "hand": [
+          3031,
+          1235
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "walk-diag",
+        "rect": [
+          3327,
+          838,
+          385,
+          670
+        ],
+        "foot": [
+          3558.92660944206,
+          1502.0
+        ],
+        "pixelsPerWorld": 11.227467811158798,
+        "hand": [
+          3672,
+          1218
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ]
+  ],
+  "roll": [
+    [
+      {
+        "source": "roll",
+        "rect": [
+          71,
+          86,
+          160,
+          252
+        ],
+        "foot": [
+          151.0,
+          335
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          109.4,
+          287.6
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          328,
+          153,
+          183,
+          178
+        ],
+        "foot": [
+          419.5,
+          328
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          379.2,
+          295.4
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          590,
+          161,
+          203,
+          170
+        ],
+        "foot": [
+          691.5,
+          328
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          642.8,
+          242.6
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          874,
+          120,
+          209,
+          211
+        ],
+        "foot": [
+          978.5,
+          328
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          932.5,
+          250.8
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          1147,
+          147,
+          215,
+          189
+        ],
+        "foot": [
+          1254.5,
+          333
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1202.9,
+          303.9
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          1450,
+          62,
+          171,
+          284
+        ],
+        "foot": [
+          1535.5,
+          345
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1484.2,
+          252.3
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "roll",
+        "rect": [
+          54,
+          361,
+          176,
+          273
+        ],
+        "foot": [
+          142.0,
+          631
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          210.6,
+          541.2
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          339,
+          422,
+          183,
+          208
+        ],
+        "foot": [
+          430.5,
+          627
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          474.4,
+          557.2
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          593,
+          432,
+          211,
+          178
+        ],
+        "foot": [
+          698.5,
+          607
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          755.5,
+          517.4
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          872,
+          401,
+          209,
+          218
+        ],
+        "foot": [
+          976.5,
+          616
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1028.8,
+          538.3
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          1153,
+          421,
+          213,
+          204
+        ],
+        "foot": [
+          1259.5,
+          622
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1317.0,
+          555.6
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          1441,
+          348,
+          171,
+          287
+        ],
+        "foot": [
+          1526.5,
+          632
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1593.2,
+          523.1
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "roll",
+        "rect": [
+          40,
+          655,
+          192,
+          248
+        ],
+        "foot": [
+          136.0,
+          900
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          159.0,
+          833.6
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          319,
+          705,
+          207,
+          194
+        ],
+        "foot": [
+          422.5,
+          896
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          484.6,
+          854.4
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          590,
+          696,
+          205,
+          193
+        ],
+        "foot": [
+          692.5,
+          886
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          721.2,
+          800.2
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          884,
+          686,
+          193,
+          203
+        ],
+        "foot": [
+          980.5,
+          886
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          997.9,
+          799.7
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          1156,
+          686,
+          211,
+          211
+        ],
+        "foot": [
+          1261.5,
+          894
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1331.1,
+          861.1
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll",
+        "rect": [
+          1444,
+          640,
+          187,
+          267
+        ],
+        "foot": [
+          1537.5,
+          904
+        ],
+        "pixelsPerWorld": 4.557471,
+        "hand": [
+          1487.0,
+          826.9
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "roll-diag",
+        "rect": [
+          70,
+          98,
+          251,
+          254
+        ],
+        "foot": [
+          195.5,
+          349
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          107.7,
+          242.8
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          405,
+          138,
+          238,
+          219
+        ],
+        "foot": [
+          524.0,
+          354
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          540.7,
+          269.4
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          736,
+          81,
+          266,
+          273
+        ],
+        "foot": [
+          869.0,
+          351
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          890.3,
+          247.5
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          1053,
+          153,
+          252,
+          199
+        ],
+        "foot": [
+          1179.0,
+          349
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          1211.8,
+          286.3
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          1388,
+          139,
+          279,
+          225
+        ],
+        "foot": [
+          1527.5,
+          361
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          1505.2,
+          316.8
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          1759,
+          57,
+          214,
+          309
+        ],
+        "foot": [
+          1866.0,
+          363
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          1795.4,
+          248.6
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ],
+    [
+      {
+        "source": "roll-diag",
+        "rect": [
+          61,
+          456,
+          240,
+          253
+        ],
+        "foot": [
+          181.0,
+          706
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          265.0,
+          666.0
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          412,
+          468,
+          229,
+          236
+        ],
+        "foot": [
+          526.5,
+          701
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          620.4,
+          569.5
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          712,
+          420,
+          244,
+          274
+        ],
+        "foot": [
+          834.0,
+          691
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          795.0,
+          576.2
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          1045,
+          495,
+          267,
+          201
+        ],
+        "foot": [
+          1178.5,
+          693
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          1138.5,
+          595.5
+        ],
+        "handVisible": false,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          1386,
+          468,
+          284,
+          231
+        ],
+        "foot": [
+          1528.0,
+          696
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          1635.9,
+          669.0
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      },
+      {
+        "source": "roll-diag",
+        "rect": [
+          1759,
+          387,
+          232,
+          336
+        ],
+        "foot": [
+          1875.0,
+          720
+        ],
+        "pixelsPerWorld": 5.896552,
+        "hand": [
+          1963.2,
+          595.3
+        ],
+        "handVisible": true,
+        "handSide": "right"
+      }
+    ]
+  ],
+  "walkCycle": [
+    [0, 1, 3, 4],
+    [0, 1, 3, 4],
+    [0, 1, 3, 4],
+    [0, 1, 3, 4],
+    [0, 1, 3, 4]
+  ],
+  "swords": {
+    "sword_blackiron": {
+      "path": "sprites/hero-motion/harmony/swords/sword_blackiron.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "ca3c1e6c914b175d87c51377aa81adf9e7852eb3e1ac9f669fc8a63ecd84da15",
+      "grip": [
+        97.24,
+        161.3
+      ],
+      "tip": [
+        185.53,
+        72.09
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    },
+    "sword_blackiron_awakened": {
+      "path": "sprites/hero-motion/harmony/swords/sword_blackiron_awakened.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "e2cfdb8bb9a0cf799a2a4568a38f3e79a7c8e2fc45c68584286274264a655fe9",
+      "grip": [
+        97.24,
+        161.3
+      ],
+      "tip": [
+        185.53,
+        72.09
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    },
+    "sword_bloodmoon": {
+      "path": "sprites/hero-motion/harmony/swords/sword_bloodmoon.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "4505ae5181b765495e516dfe58e383f67a4b64b641069e02bfd2b305868382bc",
+      "grip": [
+        103.73,
+        167.53
+      ],
+      "tip": [
+        180.18,
+        64.95
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    },
+    "sword_bloodmoon_awakened": {
+      "path": "sprites/hero-motion/harmony/swords/sword_bloodmoon_awakened.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "7f4aa337d86319347164cffa61db3d6f2dc0d833b9bf65cc0123ee6123a259c8",
+      "grip": [
+        103.73,
+        167.53
+      ],
+      "tip": [
+        180.18,
+        64.95
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    },
+    "sword_skyfall": {
+      "path": "sprites/hero-motion/harmony/swords/sword_skyfall.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "39ef19c63e343e0bce2ca2225d27fc53a1455a85f7041d170c5f82be7465879b",
+      "grip": [
+        96.85,
+        162.22
+      ],
+      "tip": [
+        185.53,
+        72.09
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    },
+    "sword_skyfall_awakened": {
+      "path": "sprites/hero-motion/harmony/swords/sword_skyfall_awakened.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "e4232e3c34eea1347761335e73954490ce336fce9954f5aab1b8bb2370ac4b73",
+      "grip": [
+        96.85,
+        162.22
+      ],
+      "tip": [
+        185.53,
+        72.09
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    },
+    "sword_holy": {
+      "path": "sprites/hero-motion/harmony/swords/sword_holy.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "3e24e15c7ea93325f0d7bd7f79b04a7b2903ec3e6aeb85b756b52b5a8557cf72",
+      "grip": [
+        95.58,
+        163.54
+      ],
+      "tip": [
+        185.22,
+        71.64
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    },
+    "sword_holy_awakened": {
+      "path": "sprites/hero-motion/harmony/swords/sword_holy_awakened.png",
+      "width": 256,
+      "height": 256,
+      "sha256": "1a5efcbae7c69552bf2bd229328a44eb69ebf175cc626e4e8c7d654bca6a6a11",
+      "grip": [
+        95.58,
+        163.54
+      ],
+      "tip": [
+        185.22,
+        71.64
+      ],
+      "pixelsPerWorld": 4.827586206896552,
+      "angleDegrees": 45,
+      "visibleLengthPixels": 154
+    }
+  },
+  "attachments": {
+    "version": 1,
+    "coordinates": "top-left absolute source pixels, before any crop or mirror",
+    "hand": "centre of anatomical right glove; leftward directions mirror the complete pose and attachment",
+    "grip": "centre of wrapped handle where fist closes, not the pommel",
+    "rollPolicy": "hide sword while tucked; handVisible is false when the hand is occluded",
+    "runtimeStatus": "WorldRenderer uses measured hands and sword grips, discrete walk poses, and softer hero ink. Sword stays hidden throughout rolls."
+  }
+}

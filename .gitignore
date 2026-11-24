@@ -1,0 +1,15 @@
+.gradle/
+build/
+*/build/
+out/
+.idea/
+*.iml
+.vscode/
+bin/
+saves/
+*.class
+__pycache__/
+
+# Local design drafts and review captures; runtime artwork stays in assets/.
+# Previously tracked design files remain in Git; exclude their edits when staging.
+/design/

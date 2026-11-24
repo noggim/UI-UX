@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-29",
+  "mode": "built-in image_gen",
+  "assets": [
+    {
+      "key": "return_portal",
+      "file": "return-portal.png",
+      "original": "exec-f69fe65b-fec2-426d-ac50-6d415e4a7b1b.png",
+      "prompt": "Use case: stylized-concept. Create one production-ready transparent PNG game sprite for a RETURN TELEPORT SIGIL on the floor after a boss battle in the referenced painted pixel-art dungeon game. Reference image is STYLE AND CAMERA ONLY; do not recreate its scene. Top-down three-quarter view, looking down ~45 degrees, horizontal floor ellipse, about 2:1 width:height. Ancient small weathered dark bronze and slate ring, thin warm aged-gold rim with 8 clear teal rune cuts, luminous turquoise inner swirling pool, restrained pale gold sparks. Welcoming safe return magic, not demonic. No upright arch, no pillars, no tall beam. Center consists of translucent teal magical flow and visible depth rather than a flat solid UI circle. Hand-painted detailed pixel-art-like clustered shading, crisp readable broad shapes matching reference stonework, no glossy 3D render. One isolated object centered with generous transparent padding, no environment, no text, no labels, no checkerboard, no cast background rectangle. Real alpha transparency. Wide 1536x1024 canvas requested. All of ring and small aura inside canvas.",
+      "drawWidth": 168
+    },
+    {
+      "key": "abyss_sealed",
+      "file": "abyss-sealed.png",
+      "original": "exec-a705eaaf-847d-4aca-8ede-b84518e231c2.png",
+      "prompt": "Use case: stylized-concept. Production transparent game asset: sealed entrance to an abyss beneath a ruined camp, top-down three-quarter camera matching the reference. Reference image is STYLE ONLY, do not recreate room. ONE low flat ancient circular stone hatch inset in a worn slate/bronze ring; floor circle seen as an ellipse 1.8:1. Heavy closed stone lid with central sword-shaped engraving (engraving, not an upright sword); three clearly separated bronze locking segments around rim, three unlit dark gem sockets spaced 120 degrees apart (one at back center, two at lower sides). Subtle faint violet hairline seams, subdued charcoal and warm weathered stone, restrained old gold trim. Dangerous sleeping seal but readable not overdecorated; broad crisp hand-painted pixel-art-like shading matching the camp. No upright buildings, no skulls, no spikes, no standing characters, no letters. Whole object centered isolated on TRUE transparent alpha with generous padding. NO floor rectangle/environment/drop-shadow card. 1536x1024 landscape. This will be placed on the ground under actors, about 150 world pixels wide; keep silhouette low and all details readable small.",
+      "drawWidth": 256
+    },
+    {
+      "key": "abyss_open",
+      "file": "abyss-open.png",
+      "original": "exec-1c4aa729-f14d-4c83-8330-a3f4a9582f59.png",
+      "prompt": "Use case: precise-object-edit. Edit this game sprite to its OPENED state. Keep EXACT same canvas size 1536x1024, camera, perspective, outer ring silhouette/position/size, three jewel sockets and bronze trim, transparent background, pixel-like painterly style. Change ONLY the inner circular sword-engraved stone lid: it has cracked and sunk out of sight, revealing a deep dark abyss with a few broken descending stone steps visible along the inside back-left wall, fading down into black-violet depth. Restrained violet inner fissure light, dim magenta ember wisps INSIDE opening, no tall beam, no upright portal, no bright galaxy. The three existing rim gems now glow faintly violet. Keep all outer geometry aligned exactly to the input, no extra scenery, no text, no background. True alpha transparency. The result is the same ancient floor hatch after opening, clearly a downward entrance, not a puddle.",
+      "drawWidth": 216
+    },
+    {
+      "key": "return_door",
+      "date": "2026-11-01",
+      "file": "return-door.png",
+      "original": "exec-1ff42e1c-ae3f-45b5-a9e7-78a6100d0bb2.png",
+      "reference": "assets/scenes/natural-v1/central-camp.png",
+      "size": [
+        1280,
+        1280
+      ],
+      "drawWidth": 180,
+      "prompt": "Extract/recreate the exact central NORTH-facing stone dungeon entrance from this game artwork as one isolated reusable game sprite, on transparent background. Reference image is style and exact architecture reference. Single symmetrical dark slate block masonry arch, chunky piers, rounded arch top, dark black tunnel interior and a tiny stone threshold. Same high angle 2.5D pixel-art painterly rendering and weathered stone block shapes as central upper doorway in reference. Show COMPLETE arched top, not cropped. NO attached surrounding walls, NO camp objects, NO characters, NO crates, NO barrels, NO vegetation, NO purple magical lights, NO torches, NO large floor platform. Neutral gray stone so usable in mine, red fortress and purple tower. Inner doorway opaque very dark tunnel, exterior fully transparent with clean alpha. Front-facing arch viewed from same slightly top-down game camera, not diagonal isometric rotation. Thin irregular stone rubble at base only. Centered sprite filling most of a square canvas, preserve full arch and both feet. This is OPEN door frame; do not include gate bars or panels."
+    }
+  ]
+}

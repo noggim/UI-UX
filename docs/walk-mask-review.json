@@ -1,0 +1,3513 @@
+{
+  "version": 1,
+  "reviewedCommit": "9dc9bc374fb7c9336a26cc391d50d99d34550e55",
+  "date": "2026-10-28",
+  "coordinateSystem": "normalized-image-top-left-x-right-y-down",
+  "masks": [
+    {
+      "kind": "rooms",
+      "id": "central-camp",
+      "image": "scenes/natural-v1/central-camp.png",
+      "mask": "walkmask/rooms/central-camp.png",
+      "artSha256": "fc8a656370617b0a444d65bbc6891f397feb8dea6a4b26145cc62dc1826160a2",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "mine",
+      "image": "scenes/natural-v1/mine.png",
+      "mask": "walkmask/rooms/mine.png",
+      "artSha256": "332f7d60dfe653f5eb7bcc26733f2a350ce8729560e81aa291b2146f996bd696",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel",
+      "image": "scenes/natural-v1/citadel.png",
+      "mask": "walkmask/rooms/citadel.png",
+      "artSha256": "a671279331a7505fec3fa4cc240baef9c9124184b1d22cfac434e646d82f7e63",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "tower",
+      "image": "scenes/natural-v1/tower.png",
+      "mask": "walkmask/rooms/tower.png",
+      "artSha256": "b55797c742be2cba2b90ff234da30ba49354cf959be28aedb3cf3a9ea0260867",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "seal-hall",
+      "image": "scenes/natural-v1/seal-hall.png",
+      "mask": "walkmask/rooms/seal-hall.png",
+      "artSha256": "3e77ea664405b9e7be068a24a6e8369643f4f0e6c9062e2fee5f10d46f88e2e6",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "mine-mob-b",
+      "image": "scenes/natural-v1/mine-mob-b.png",
+      "mask": "walkmask/rooms/mine-mob-b.png",
+      "artSha256": "593987d37f9f56f0011a767008e5538a7553e7ccd7e4e278f7987b5e33940e32",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "mine-mob-c",
+      "image": "scenes/natural-v1/mine-mob-c.png",
+      "mask": "walkmask/rooms/mine-mob-c.png",
+      "artSha256": "e7decbeeed05d9e3004a489a0cebc6652a63c485e2d2d5eb9eb9034ef60fbbe8",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "mine-ore-a",
+      "image": "scenes/natural-v1/mine-ore-a.png",
+      "mask": "walkmask/rooms/mine-ore-a.png",
+      "artSha256": "be47609154dbfa2f848efa880579eefb4cab92b1dbc7c3e28a245dcfc1c25d83",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "North mining alcove approach, below the blue ore; West ore approach between crate and ore base; Solid rock shoulder beside the northern alcove",
+      "edits": [
+        {
+          "floor": true,
+          "note": "North mining alcove approach, below the blue ore",
+          "points": [
+            [
+              0.4,
+              0.29
+            ],
+            [
+              0.419,
+              0.246
+            ],
+            [
+              0.433,
+              0.22
+            ],
+            [
+              0.451,
+              0.202
+            ],
+            [
+              0.486,
+              0.201
+            ],
+            [
+              0.5,
+              0.226
+            ],
+            [
+              0.48,
+              0.28
+            ]
+          ]
+        },
+        {
+          "floor": true,
+          "note": "West ore approach between crate and ore base",
+          "points": [
+            [
+              0.145,
+              0.488
+            ],
+            [
+              0.151,
+              0.458
+            ],
+            [
+              0.166,
+              0.433
+            ],
+            [
+              0.193,
+              0.418
+            ],
+            [
+              0.219,
+              0.443
+            ],
+            [
+              0.212,
+              0.493
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Solid rock shoulder beside the northern alcove",
+          "points": [
+            [
+              0.298,
+              0.237
+            ],
+            [
+              0.333,
+              0.233
+            ],
+            [
+              0.359,
+              0.272
+            ],
+            [
+              0.36,
+              0.291
+            ],
+            [
+              0.321,
+              0.285
+            ],
+            [
+              0.299,
+              0.265
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.447,
+            0.234
+          ],
+          "floor": true,
+          "note": "North mining alcove approach, below the blue ore"
+        },
+        {
+          "uv": [
+            0.174,
+            0.463
+          ],
+          "floor": true,
+          "note": "West ore approach between crate and ore base"
+        },
+        {
+          "uv": [
+            0.322,
+            0.254
+          ],
+          "floor": false,
+          "note": "Solid rock shoulder beside the northern alcove"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "mine-ore-b",
+      "image": "scenes/natural-v1/mine-ore-b.png",
+      "mask": "walkmask/rooms/mine-ore-b.png",
+      "artSha256": "1bae97ff6bd6c7942669fb8bd252a743f3743a03df87eb2498dd93f21bcf8a1f",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "Northern mining alcove soil; Rock footing beside lower-left mine doorway",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Northern mining alcove soil",
+          "points": [
+            [
+              0.502,
+              0.29
+            ],
+            [
+              0.509,
+              0.228
+            ],
+            [
+              0.519,
+              0.183
+            ],
+            [
+              0.54,
+              0.16
+            ],
+            [
+              0.578,
+              0.158
+            ],
+            [
+              0.608,
+              0.2
+            ],
+            [
+              0.599,
+              0.262
+            ],
+            [
+              0.553,
+              0.31
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Rock footing beside lower-left mine doorway",
+          "points": [
+            [
+              0.15,
+              0.661
+            ],
+            [
+              0.179,
+              0.659
+            ],
+            [
+              0.214,
+              0.675
+            ],
+            [
+              0.251,
+              0.688
+            ],
+            [
+              0.267,
+              0.705
+            ],
+            [
+              0.251,
+              0.737
+            ],
+            [
+              0.218,
+              0.743
+            ],
+            [
+              0.184,
+              0.72
+            ],
+            [
+              0.157,
+              0.702
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.539,
+            0.194
+          ],
+          "floor": true,
+          "note": "Northern mining alcove soil"
+        },
+        {
+          "uv": [
+            0.222,
+            0.707
+          ],
+          "floor": false,
+          "note": "Rock footing beside lower-left mine doorway"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "mine-boss-a",
+      "image": "scenes/natural-v1/mine-boss-a.png",
+      "mask": "walkmask/rooms/mine-boss-a.png",
+      "artSha256": "a05570d6f1bbf30d74f5ae3770f7287072bf434c955fb04efdfa7c139d7c3011",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel-mob-b",
+      "image": "scenes/natural-v1/citadel-mob-b.png",
+      "mask": "walkmask/rooms/citadel-mob-b.png",
+      "artSha256": "0a2e959079fe514cec0bd2aec830e377f964e163a31e63a154d65bb70ea23c96",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel-mob-c",
+      "image": "scenes/natural-v1/citadel-mob-c.png",
+      "mask": "walkmask/rooms/citadel-mob-c.png",
+      "artSha256": "fa77ffca2f02d2842bde4e3e18890a2a91e1cb8ecc26ead1c3fcb59ddb4a2017",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel-ore-a",
+      "image": "scenes/natural-v1/citadel-ore-a.png",
+      "mask": "walkmask/rooms/citadel-ore-a.png",
+      "artSha256": "6c92673a427dbc4004a4f7ce09da553d642a95d38714bf501652360ef2125741",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "West ore approach paving; crystal pile stays solid",
+      "edits": [
+        {
+          "floor": true,
+          "note": "West ore approach paving; crystal pile stays solid",
+          "points": [
+            [
+              0.143,
+              0.472
+            ],
+            [
+              0.158,
+              0.449
+            ],
+            [
+              0.178,
+              0.443
+            ],
+            [
+              0.211,
+              0.459
+            ],
+            [
+              0.231,
+              0.489
+            ],
+            [
+              0.223,
+              0.529
+            ],
+            [
+              0.18,
+              0.509
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.172,
+            0.478
+          ],
+          "floor": true,
+          "note": "West ore approach paving; crystal pile stays solid"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel-ore-b",
+      "image": "scenes/natural-v1/citadel-ore-b.png",
+      "mask": "walkmask/rooms/citadel-ore-b.png",
+      "artSha256": "95a297a505a9da629b04ef523c73e84757f4e2dae1f221806f8290445aa587a3",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel-boss-a",
+      "image": "scenes/natural-v1/citadel-boss-a.png",
+      "mask": "walkmask/rooms/citadel-boss-a.png",
+      "artSha256": "588e3ceb09921a39d9c5f729463e4f3eb8842e32f730dfa4e9c72fa8094fc0a4",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "tower-mob-b",
+      "image": "scenes/natural-v1/tower-mob-b.png",
+      "mask": "walkmask/rooms/tower-mob-b.png",
+      "artSha256": "5e383b3ed6da9fb119401759fc7420c41f4e79f9419639d6e9a499b362d11431",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "tower-mob-c",
+      "image": "scenes/natural-v1/tower-mob-c.png",
+      "mask": "walkmask/rooms/tower-mob-c.png",
+      "artSha256": "7d46408bd1d896e3bbcc60850c0c978cf8f0677036aecd68390b7115b324e2ee",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "tower-ore-a",
+      "image": "scenes/natural-v1/tower-ore-a.png",
+      "mask": "walkmask/rooms/tower-ore-a.png",
+      "artSha256": "d261cd50ade98ce3635b6f52f46d648025dd8782632e7ce4d87e332a380d6bfe",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "West blue-lit paving between ore and supply crates; East crystal alcove approach, continuously joined to the main paving",
+      "edits": [
+        {
+          "floor": true,
+          "note": "West blue-lit paving between ore and supply crates",
+          "points": [
+            [
+              0.184,
+              0.378
+            ],
+            [
+              0.199,
+              0.357
+            ],
+            [
+              0.226,
+              0.35
+            ],
+            [
+              0.257,
+              0.361
+            ],
+            [
+              0.286,
+              0.401
+            ],
+            [
+              0.257,
+              0.412
+            ],
+            [
+              0.233,
+              0.392
+            ],
+            [
+              0.207,
+              0.394
+            ]
+          ]
+        },
+        {
+          "floor": true,
+          "note": "East crystal alcove approach, continuously joined to the main paving",
+          "points": [
+            [
+              0.735,
+              0.378
+            ],
+            [
+              0.787,
+              0.378
+            ],
+            [
+              0.81,
+              0.397
+            ],
+            [
+              0.831,
+              0.422
+            ],
+            [
+              0.826,
+              0.454
+            ],
+            [
+              0.791,
+              0.448
+            ],
+            [
+              0.755,
+              0.435
+            ],
+            [
+              0.73,
+              0.413
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.215,
+            0.373
+          ],
+          "floor": true,
+          "note": "West blue-lit paving between ore and supply crates"
+        },
+        {
+          "uv": [
+            0.797,
+            0.409
+          ],
+          "floor": true,
+          "note": "East crystal alcove approach, continuously joined to the main paving"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "tower-ore-b",
+      "image": "scenes/natural-v1/tower-ore-b.png",
+      "mask": "walkmask/rooms/tower-ore-b.png",
+      "artSha256": "f218f0de2e81f4274bfe00c5ad34b0d5943476f9acc32300b8dccd5de34ba4f7",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "Southern paved strip inside the parapet; East work area paving; pillars and ore crates remain blocked",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Southern paved strip inside the parapet",
+          "points": [
+            [
+              0.295,
+              0.641
+            ],
+            [
+              0.326,
+              0.663
+            ],
+            [
+              0.391,
+              0.683
+            ],
+            [
+              0.459,
+              0.686
+            ],
+            [
+              0.494,
+              0.704
+            ],
+            [
+              0.492,
+              0.745
+            ],
+            [
+              0.439,
+              0.752
+            ],
+            [
+              0.388,
+              0.739
+            ],
+            [
+              0.33,
+              0.713
+            ],
+            [
+              0.301,
+              0.678
+            ]
+          ]
+        },
+        {
+          "floor": true,
+          "note": "East work area paving; pillars and ore crates remain blocked",
+          "points": [
+            [
+              0.795,
+              0.427
+            ],
+            [
+              0.819,
+              0.416
+            ],
+            [
+              0.839,
+              0.435
+            ],
+            [
+              0.856,
+              0.454
+            ],
+            [
+              0.855,
+              0.485
+            ],
+            [
+              0.819,
+              0.494
+            ],
+            [
+              0.797,
+              0.476
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.43,
+            0.726
+          ],
+          "floor": true,
+          "note": "Southern paved strip inside the parapet"
+        },
+        {
+          "uv": [
+            0.835,
+            0.458
+          ],
+          "floor": true,
+          "note": "East work area paving; pillars and ore crates remain blocked"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "tower-boss-a",
+      "image": "scenes/natural-v1/tower-boss-a.png",
+      "mask": "walkmask/rooms/tower-boss-a.png",
+      "artSha256": "332ee61ed842c8b112f1d03e696623f8b87d2a48e25d706c39b96b9a51dd4899",
+      "size": [
+        1672,
+        940
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "village",
+      "image": "scenes/team/village.png",
+      "mask": "walkmask/rooms/village.png",
+      "artSha256": "1aae4799029786e6436ade66ffa9bca6374b2752eade1113494fd254dde75b0b",
+      "size": [
+        1340,
+        1174
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "mine-antechamber",
+      "image": "scenes/natural-v1/mine-antechamber.png",
+      "mask": "walkmask/rooms/mine-antechamber.png",
+      "artSha256": "3cd5a88edfa4ca709873c39701d8f06368ea79021eb782a7a9b44af4c6498de1",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel-corner",
+      "image": "scenes/natural-v1/citadel-corner.png",
+      "mask": "walkmask/rooms/citadel-corner.png",
+      "artSha256": "c79d00d8aba237d14d7747d1557b2d7808ebdbae4430d0820c823f17c4173a18",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "Red floor border inside the southern parapet",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Red floor border inside the southern parapet",
+          "points": [
+            [
+              0.366,
+              0.749
+            ],
+            [
+              0.421,
+              0.77
+            ],
+            [
+              0.524,
+              0.772
+            ],
+            [
+              0.63,
+              0.751
+            ],
+            [
+              0.631,
+              0.785
+            ],
+            [
+              0.565,
+              0.804
+            ],
+            [
+              0.477,
+              0.807
+            ],
+            [
+              0.399,
+              0.791
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.496,
+            0.791
+          ],
+          "floor": true,
+          "note": "Red floor border inside the southern parapet"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "tower-antechamber",
+      "image": "scenes/natural-v1/tower-antechamber.png",
+      "mask": "walkmask/rooms/tower-antechamber.png",
+      "artSha256": "18789b36036a36326bf540dd4a9ef897d1031fc57e457f1f945a6c331a604295",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "Broad southern paving inside the low wall",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Broad southern paving inside the low wall",
+          "points": [
+            [
+              0.337,
+              0.68
+            ],
+            [
+              0.393,
+              0.697
+            ],
+            [
+              0.47,
+              0.7
+            ],
+            [
+              0.56,
+              0.698
+            ],
+            [
+              0.611,
+              0.68
+            ],
+            [
+              0.609,
+              0.724
+            ],
+            [
+              0.574,
+              0.757
+            ],
+            [
+              0.524,
+              0.769
+            ],
+            [
+              0.441,
+              0.768
+            ],
+            [
+              0.388,
+              0.749
+            ],
+            [
+              0.352,
+              0.718
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.5,
+            0.744
+          ],
+          "floor": true,
+          "note": "Broad southern paving inside the low wall"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "citadel-ore-north",
+      "image": "scenes/natural-v1/citadel-ore-north.png",
+      "mask": "walkmask/rooms/citadel-ore-north.png",
+      "artSha256": "046ac83d34c19dc9ffa171a1817f4f5886de0731e0a09c38cc69080d34b51ed6",
+      "size": [
+        1672,
+        941
+      ],
+      "status": "corrected",
+      "note": "West ore approach paving; East ore approach below the crystals and table; Southern masonry is a wall, not a staircase",
+      "edits": [
+        {
+          "floor": true,
+          "note": "West ore approach paving",
+          "points": [
+            [
+              0.144,
+              0.473
+            ],
+            [
+              0.16,
+              0.449
+            ],
+            [
+              0.187,
+              0.443
+            ],
+            [
+              0.223,
+              0.463
+            ],
+            [
+              0.232,
+              0.502
+            ],
+            [
+              0.201,
+              0.537
+            ],
+            [
+              0.17,
+              0.51
+            ]
+          ]
+        },
+        {
+          "floor": true,
+          "note": "East ore approach below the crystals and table",
+          "points": [
+            [
+              0.746,
+              0.547
+            ],
+            [
+              0.796,
+              0.505
+            ],
+            [
+              0.827,
+              0.523
+            ],
+            [
+              0.852,
+              0.548
+            ],
+            [
+              0.827,
+              0.58
+            ],
+            [
+              0.785,
+              0.596
+            ],
+            [
+              0.745,
+              0.611
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Southern masonry is a wall, not a staircase",
+          "points": [
+            [
+              0.397,
+              0.706
+            ],
+            [
+              0.441,
+              0.713
+            ],
+            [
+              0.49,
+              0.712
+            ],
+            [
+              0.546,
+              0.714
+            ],
+            [
+              0.588,
+              0.702
+            ],
+            [
+              0.611,
+              0.745
+            ],
+            [
+              0.6,
+              0.81
+            ],
+            [
+              0.39,
+              0.81
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.174,
+            0.478
+          ],
+          "floor": true,
+          "note": "West ore approach paving"
+        },
+        {
+          "uv": [
+            0.802,
+            0.559
+          ],
+          "floor": true,
+          "note": "East ore approach below the crystals and table"
+        },
+        {
+          "uv": [
+            0.5,
+            0.752
+          ],
+          "floor": false,
+          "note": "Southern masonry is a wall, not a staircase"
+        }
+      ]
+    },
+    {
+      "kind": "rooms",
+      "id": "mine-junction",
+      "image": "scenes/natural-v1/mine-junction.png",
+      "mask": "walkmask/rooms/mine-junction.png",
+      "artSha256": "9d68c6f68ed860715f72f7c99e79f541dad835c25bb0dc995bfab090d149d575",
+      "size": [
+        1671,
+        941
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "cave-mine",
+      "image": "scenes/natural-v1/cave-mine.png",
+      "mask": "walkmask/rooms/cave-mine.png",
+      "artSha256": "a769edfdf6b42b57d7487be59a7d109dacf79e1842f14110d26146f08040315d",
+      "size": [
+        1536,
+        1024
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "cave-citadel",
+      "image": "scenes/natural-v1/cave-citadel.png",
+      "mask": "walkmask/rooms/cave-citadel.png",
+      "artSha256": "a56e5e4c8c3df45464013f7e1bb737fae9ed07ac5244e99b23b0d87334787c5b",
+      "size": [
+        1536,
+        1024
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "rooms",
+      "id": "cave-tower",
+      "image": "scenes/natural-v1/cave-tower.png",
+      "mask": "walkmask/rooms/cave-tower.png",
+      "artSha256": "a2e86ffaa312f496ca778120cf9d5d4d54c0cbb5bb0e56af9cbf4ba1c22fe016",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "passages",
+      "id": "citadel-gallery",
+      "image": "scenes/links-v2/citadel-gallery.png",
+      "mask": "walkmask/passages/citadel-gallery.png",
+      "artSha256": "cee0da7c30bfb3fe3be7a9df7f84de4ea15ef556063f3840454bfc14eb56ed11",
+      "size": [
+        1536,
+        1024
+      ],
+      "status": "corrected",
+      "note": "Paved shoulder following the curved rear wall",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Paved shoulder following the curved rear wall",
+          "points": [
+            [
+              0.294,
+              0.467
+            ],
+            [
+              0.323,
+              0.425
+            ],
+            [
+              0.368,
+              0.401
+            ],
+            [
+              0.423,
+              0.378
+            ],
+            [
+              0.482,
+              0.35
+            ],
+            [
+              0.54,
+              0.32
+            ],
+            [
+              0.596,
+              0.28
+            ],
+            [
+              0.617,
+              0.306
+            ],
+            [
+              0.562,
+              0.349
+            ],
+            [
+              0.485,
+              0.395
+            ],
+            [
+              0.405,
+              0.424
+            ],
+            [
+              0.337,
+              0.466
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.471,
+            0.378
+          ],
+          "floor": true,
+          "note": "Paved shoulder following the curved rear wall"
+        }
+      ]
+    },
+    {
+      "kind": "passages",
+      "id": "citadel-crossing",
+      "image": "scenes/links-v2/citadel-crossing.png",
+      "mask": "walkmask/passages/citadel-crossing.png",
+      "artSha256": "2aea133edf34146eef8ad397568ef7c933c716dc4ea26f4d84962ed447fa3cfd",
+      "size": [
+        1659,
+        948
+      ],
+      "status": "corrected",
+      "note": "Paved strip at the rear wall near the center-right turn",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Paved strip at the rear wall near the center-right turn",
+          "points": [
+            [
+              0.57,
+              0.424
+            ],
+            [
+              0.603,
+              0.423
+            ],
+            [
+              0.644,
+              0.433
+            ],
+            [
+              0.673,
+              0.453
+            ],
+            [
+              0.715,
+              0.477
+            ],
+            [
+              0.756,
+              0.503
+            ],
+            [
+              0.783,
+              0.537
+            ],
+            [
+              0.738,
+              0.535
+            ],
+            [
+              0.674,
+              0.493
+            ],
+            [
+              0.612,
+              0.466
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.733,
+            0.505
+          ],
+          "floor": true,
+          "note": "Paved strip at the rear wall near the center-right turn"
+        }
+      ]
+    },
+    {
+      "kind": "passages",
+      "id": "mine-traverse",
+      "image": "scenes/links-v2/mine-traverse.png",
+      "mask": "walkmask/passages/mine-traverse.png",
+      "artSha256": "a985e464fd90b6549d3433e57739e11da5f53abdea91ffef7e01b992a8b67cd6",
+      "size": [
+        1659,
+        948
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "passages",
+      "id": "mine-descent",
+      "image": "scenes/links-v2/mine-descent.png",
+      "mask": "walkmask/passages/mine-descent.png",
+      "artSha256": "cab3e982379b5ef9e3d81301da6c15f05178ef9cd52a91c4ea6ae0f140f1436d",
+      "size": [
+        1024,
+        1536
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "passages",
+      "id": "mine-rail-bend",
+      "image": "scenes/links-v2/mine-rail-bend.png",
+      "mask": "walkmask/passages/mine-rail-bend.png",
+      "artSha256": "a03c22900523c949f028f5ef26a1f352d67f669fb1837765dead2eab98b0aa91",
+      "size": [
+        1660,
+        948
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "passages",
+      "id": "tower-bridge",
+      "image": "scenes/links-v2/tower-bridge.png",
+      "mask": "walkmask/passages/tower-bridge.png",
+      "artSha256": "e050d3558e805c2e03de6dd251465cfe12d0921b3c3118b85ed5fb8b91d67006",
+      "size": [
+        1659,
+        948
+      ],
+      "status": "corrected",
+      "note": "Open landing above the circular bridge emblem; Left rear parapet footing; Right rear parapet footing",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Open landing above the circular bridge emblem",
+          "points": [
+            [
+              0.393,
+              0.38
+            ],
+            [
+              0.407,
+              0.344
+            ],
+            [
+              0.432,
+              0.317
+            ],
+            [
+              0.48,
+              0.305
+            ],
+            [
+              0.528,
+              0.315
+            ],
+            [
+              0.565,
+              0.341
+            ],
+            [
+              0.596,
+              0.367
+            ],
+            [
+              0.584,
+              0.409
+            ],
+            [
+              0.438,
+              0.42
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Left rear parapet footing",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.385,
+              0
+            ],
+            [
+              0.385,
+              0.384
+            ],
+            [
+              0.355,
+              0.406
+            ],
+            [
+              0.311,
+              0.395
+            ],
+            [
+              0.26,
+              0.366
+            ],
+            [
+              0.201,
+              0.331
+            ],
+            [
+              0.13,
+              0.295
+            ],
+            [
+              0.06,
+              0.264
+            ],
+            [
+              0,
+              0.242
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Right rear parapet footing",
+          "points": [
+            [
+              0.623,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.222
+            ],
+            [
+              0.94,
+              0.25
+            ],
+            [
+              0.871,
+              0.285
+            ],
+            [
+              0.799,
+              0.321
+            ],
+            [
+              0.733,
+              0.356
+            ],
+            [
+              0.681,
+              0.389
+            ],
+            [
+              0.642,
+              0.403
+            ],
+            [
+              0.618,
+              0.395
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.488,
+            0.336
+          ],
+          "floor": true,
+          "note": "Open landing above the circular bridge emblem"
+        },
+        {
+          "uv": [
+            0.2,
+            0.3
+          ],
+          "floor": false,
+          "note": "Left rear parapet footing"
+        },
+        {
+          "uv": [
+            0.8,
+            0.288
+          ],
+          "floor": false,
+          "note": "Right rear parapet footing"
+        }
+      ]
+    },
+    {
+      "kind": "passages",
+      "id": "tower-ascent",
+      "image": "scenes/links-v2/tower-ascent.png",
+      "mask": "walkmask/passages/tower-ascent.png",
+      "artSha256": "e4e5da0118f3540e1cd01b33c3bf2a6143093c36f93f5076b24da0746505b18f",
+      "size": [
+        1024,
+        1536
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "passages",
+      "id": "tower-stair-bend",
+      "image": "scenes/links-v2/tower-stair-bend.png",
+      "mask": "walkmask/passages/tower-stair-bend.png",
+      "artSha256": "96b8dfe4c1ca4c21750bc737fed0cf72814a9e1ab16eaa4410040cab6faca37a",
+      "size": [
+        1660,
+        948
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "passages",
+      "id": "camp-trail",
+      "image": "scenes/links-v2/camp-trail.png",
+      "mask": "walkmask/passages/camp-trail.png",
+      "artSha256": "98e93964e4d4ca2168eb8e66cfe018932a91f832f9e24b77f1ecc668bcdf2080",
+      "size": [
+        1024,
+        1536
+      ],
+      "status": "corrected",
+      "note": "Upper-left cobbled shoulder; Upper-right bend: visible grass and cobbles before the rocks; Lower-right bend paved shoulder; Lower-left paved shoulder, above the foreground tree",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Upper-left cobbled shoulder",
+          "points": [
+            [
+              0.403,
+              0.146
+            ],
+            [
+              0.4,
+              0.184
+            ],
+            [
+              0.415,
+              0.212
+            ],
+            [
+              0.441,
+              0.244
+            ],
+            [
+              0.459,
+              0.273
+            ],
+            [
+              0.48,
+              0.27
+            ],
+            [
+              0.5,
+              0.24
+            ],
+            [
+              0.47,
+              0.193
+            ],
+            [
+              0.446,
+              0.16
+            ]
+          ]
+        },
+        {
+          "floor": true,
+          "note": "Upper-right bend: visible grass and cobbles before the rocks",
+          "points": [
+            [
+              0.699,
+              0.277
+            ],
+            [
+              0.765,
+              0.277
+            ],
+            [
+              0.799,
+              0.307
+            ],
+            [
+              0.81,
+              0.337
+            ],
+            [
+              0.795,
+              0.365
+            ],
+            [
+              0.763,
+              0.397
+            ],
+            [
+              0.719,
+              0.425
+            ],
+            [
+              0.673,
+              0.455
+            ],
+            [
+              0.625,
+              0.482
+            ],
+            [
+              0.578,
+              0.477
+            ],
+            [
+              0.591,
+              0.445
+            ],
+            [
+              0.65,
+              0.389
+            ],
+            [
+              0.711,
+              0.335
+            ]
+          ]
+        },
+        {
+          "floor": true,
+          "note": "Lower-right bend paved shoulder",
+          "points": [
+            [
+              0.604,
+              0.515
+            ],
+            [
+              0.661,
+              0.532
+            ],
+            [
+              0.711,
+              0.551
+            ],
+            [
+              0.753,
+              0.578
+            ],
+            [
+              0.771,
+              0.607
+            ],
+            [
+              0.749,
+              0.641
+            ],
+            [
+              0.711,
+              0.672
+            ],
+            [
+              0.677,
+              0.684
+            ],
+            [
+              0.651,
+              0.659
+            ],
+            [
+              0.684,
+              0.618
+            ],
+            [
+              0.658,
+              0.572
+            ],
+            [
+              0.604,
+              0.55
+            ]
+          ]
+        },
+        {
+          "floor": true,
+          "note": "Lower-left paved shoulder, above the foreground tree",
+          "points": [
+            [
+              0.333,
+              0.701
+            ],
+            [
+              0.359,
+              0.699
+            ],
+            [
+              0.39,
+              0.729
+            ],
+            [
+              0.354,
+              0.768
+            ],
+            [
+              0.333,
+              0.798
+            ],
+            [
+              0.296,
+              0.79
+            ],
+            [
+              0.27,
+              0.769
+            ],
+            [
+              0.279,
+              0.738
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.437,
+            0.218
+          ],
+          "floor": true,
+          "note": "Upper-left cobbled shoulder"
+        },
+        {
+          "uv": [
+            0.75,
+            0.377
+          ],
+          "floor": true,
+          "note": "Upper-right bend: visible grass and cobbles before the rocks"
+        },
+        {
+          "uv": [
+            0.74,
+            0.604
+          ],
+          "floor": true,
+          "note": "Lower-right bend paved shoulder"
+        },
+        {
+          "uv": [
+            0.316,
+            0.758
+          ],
+          "floor": true,
+          "note": "Lower-left paved shoulder, above the foreground tree"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "mine-side",
+      "image": "scenes/joints-v1/mine-side.png",
+      "mask": "walkmask/joints/mine-side.png",
+      "artSha256": "43f908e33274cb9d7e14b89e2c41835c013679538a8c7608cc46316669d5296b",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Dirt beside the left lamp post",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Dirt beside the left lamp post",
+          "points": [
+            [
+              0.288,
+              0.51
+            ],
+            [
+              0.309,
+              0.481
+            ],
+            [
+              0.351,
+              0.459
+            ],
+            [
+              0.392,
+              0.469
+            ],
+            [
+              0.427,
+              0.488
+            ],
+            [
+              0.387,
+              0.523
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.357,
+            0.49
+          ],
+          "floor": true,
+          "note": "Dirt beside the left lamp post"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "mine-north",
+      "image": "scenes/joints-v1/mine-north.png",
+      "mask": "walkmask/joints/mine-north.png",
+      "artSha256": "fbffc5bca8f13920dbdc752d5a75d76033aff205712e126a6b7f387beeb08913",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-L1-L2",
+      "image": "scenes/joints-v2/exit-L1-L2.png",
+      "mask": "walkmask/joints/exit-L1-L2.png",
+      "artSha256": "5ecb0fa68224b8fa2701975dcc4c190a374a841bb3b1356f19e2fd288ebb16d5",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Back cave wall and support footings",
+      "edits": [
+        {
+          "floor": false,
+          "note": "Back cave wall and support footings",
+          "points": [
+            [
+              0.57,
+              0.28
+            ],
+            [
+              0.628,
+              0.329
+            ],
+            [
+              0.689,
+              0.367
+            ],
+            [
+              0.755,
+              0.411
+            ],
+            [
+              0.825,
+              0.445
+            ],
+            [
+              0.911,
+              0.493
+            ],
+            [
+              1,
+              0.534
+            ],
+            [
+              1,
+              0.606
+            ],
+            [
+              0.916,
+              0.567
+            ],
+            [
+              0.837,
+              0.531
+            ],
+            [
+              0.77,
+              0.494
+            ],
+            [
+              0.693,
+              0.452
+            ],
+            [
+              0.621,
+              0.409
+            ],
+            [
+              0.567,
+              0.359
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.805,
+            0.487
+          ],
+          "floor": false,
+          "note": "Back cave wall and support footings"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "entry-L1-L8",
+      "image": "scenes/joints-v2/entry-L1-L8.png",
+      "mask": "walkmask/joints/entry-L1-L8.png",
+      "artSha256": "e05b5885bd5fd1fa6741469ce6e0eed58b167f1359bc3030e46f4a542efff700",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-L1-L8",
+      "image": "scenes/joints-v2/exit-L1-L8.png",
+      "mask": "walkmask/joints/exit-L1-L8.png",
+      "artSha256": "be606949a12673caf59dc5b40110a5a1e9553f1c566f017e15cd94f8c398187d",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-L2-L3",
+      "image": "scenes/joints-v2/exit-L2-L3.png",
+      "mask": "walkmask/joints/exit-L2-L3.png",
+      "artSha256": "b9a6ce5c3aeaab8715e0b88e5d5187f7f650ec2561ee6c76236b336f31bc15c9",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-L3-L4",
+      "image": "scenes/joints-v2/entry-L3-L4.png",
+      "mask": "walkmask/joints/entry-L3-L4.png",
+      "artSha256": "4d8be77b4945f7e7fa8b4793e85a4153a76d2a82474a962ab7b0c5496fdeb8d0",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-L3-L4",
+      "image": "scenes/joints-v2/exit-L3-L4.png",
+      "mask": "walkmask/joints/exit-L3-L4.png",
+      "artSha256": "f29363c2283ee2a4a49b77eaa24457edf18e0e176e2bc9ac1e1192173b299815",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-L5-L7",
+      "image": "scenes/joints-v2/entry-L5-L7.png",
+      "mask": "walkmask/joints/entry-L5-L7.png",
+      "artSha256": "39779555d7581bc2c96aa8321285d524b5b6dd6705765bcdee9409abfb806768",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-L5-L7",
+      "image": "scenes/joints-v2/exit-L5-L7.png",
+      "mask": "walkmask/joints/exit-L5-L7.png",
+      "artSha256": "9086fe50718785e9fab1b98668ecec0174791f391bd8bb7519d695ec6a4dd67d",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-L7-L6",
+      "image": "scenes/joints-v2/entry-L7-L6.png",
+      "mask": "walkmask/joints/entry-L7-L6.png",
+      "artSha256": "730060f8887e0b925690cadf0f7def0bc374b22dfe69e2b14a6ed02b0e7a2ed1",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-R1-R2",
+      "image": "scenes/joints-v2/exit-R1-R2.png",
+      "mask": "walkmask/joints/exit-R1-R2.png",
+      "artSha256": "6285e459b2caec45b357f11286cd982e827176636ee994d5419d440a6d9c2ca2",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-R2-R7",
+      "image": "scenes/joints-v2/entry-R2-R7.png",
+      "mask": "walkmask/joints/entry-R2-R7.png",
+      "artSha256": "c4556a26fd8db3f9749bdf9074948a9b3eb89679e69d7386f37b7cfb957ed17e",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Lower landing reaches the wall-side paving",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Lower landing reaches the wall-side paving",
+          "points": [
+            [
+              0.591,
+              0.765
+            ],
+            [
+              0.631,
+              0.802
+            ],
+            [
+              0.704,
+              0.843
+            ],
+            [
+              0.804,
+              0.895
+            ],
+            [
+              0.895,
+              0.921
+            ],
+            [
+              1,
+              0.953
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.7,
+              1
+            ],
+            [
+              0.62,
+              0.893
+            ],
+            [
+              0.57,
+              0.823
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.8,
+            0.954
+          ],
+          "floor": true,
+          "note": "Lower landing reaches the wall-side paving"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "exit-R2-R7",
+      "image": "scenes/joints-v2/exit-R2-R7.png",
+      "mask": "walkmask/joints/exit-R2-R7.png",
+      "artSha256": "b3765c05a4b14b6835a0309a857107672a94a793e43f4319ea7f062dadaa4da2",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-R7-R3",
+      "image": "scenes/joints-v2/entry-R7-R3.png",
+      "mask": "walkmask/joints/entry-R7-R3.png",
+      "artSha256": "2bd3f668ab529155000433e55eeeb28a437047e50c8b09c99af925b9d5f7d56c",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-R7-R3",
+      "image": "scenes/joints-v2/exit-R7-R3.png",
+      "mask": "walkmask/joints/exit-R7-R3.png",
+      "artSha256": "f77e7da31505eff3957d9b7567d2abea4de2ba94c34c0335b85be72fa657ed4a",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-R3-R4",
+      "image": "scenes/joints-v2/entry-R3-R4.png",
+      "mask": "walkmask/joints/entry-R3-R4.png",
+      "artSha256": "0f3eaa46991b118649e2cb30ef66fa6e0571ecc226474b6a4b9409dddc66907a",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Lower-left wall-side paved landing",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Lower-left wall-side paved landing",
+          "points": [
+            [
+              0,
+              0.953
+            ],
+            [
+              0.1,
+              0.913
+            ],
+            [
+              0.222,
+              0.86
+            ],
+            [
+              0.332,
+              0.791
+            ],
+            [
+              0.374,
+              0.74
+            ],
+            [
+              0.401,
+              0.765
+            ],
+            [
+              0.362,
+              0.841
+            ],
+            [
+              0.29,
+              0.93
+            ],
+            [
+              0.26,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.144,
+            0.956
+          ],
+          "floor": true,
+          "note": "Lower-left wall-side paved landing"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "exit-R3-R4",
+      "image": "scenes/joints-v2/exit-R3-R4.png",
+      "mask": "walkmask/joints/exit-R3-R4.png",
+      "artSha256": "f6d424f193e87b64dbb428883a68214bd0e4eb740270c370d0d2efae56049a26",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-R3-R5",
+      "image": "scenes/joints-v2/entry-R3-R5.png",
+      "mask": "walkmask/joints/entry-R3-R5.png",
+      "artSha256": "1036d1fcc987f5415fd5b6b37ed21b732f71acfca58cc4ad6768e4b36fd4f3cc",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-R3-R5",
+      "image": "scenes/joints-v2/exit-R3-R5.png",
+      "mask": "walkmask/joints/exit-R3-R5.png",
+      "artSha256": "3e956d5b93f74321006c30aa17062e0c1849e99ec7d1871412bb1d9a473a4ea1",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Upper edge of the steps and floor strip below the banner",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Upper edge of the steps and floor strip below the banner",
+          "points": [
+            [
+              0.386,
+              0.337
+            ],
+            [
+              0.438,
+              0.334
+            ],
+            [
+              0.484,
+              0.361
+            ],
+            [
+              0.53,
+              0.387
+            ],
+            [
+              0.578,
+              0.426
+            ],
+            [
+              0.621,
+              0.46
+            ],
+            [
+              0.677,
+              0.483
+            ],
+            [
+              0.72,
+              0.482
+            ],
+            [
+              0.768,
+              0.457
+            ],
+            [
+              0.808,
+              0.442
+            ],
+            [
+              0.854,
+              0.445
+            ],
+            [
+              0.917,
+              0.423
+            ],
+            [
+              1,
+              0.418
+            ],
+            [
+              1,
+              0.474
+            ],
+            [
+              0.858,
+              0.504
+            ],
+            [
+              0.717,
+              0.533
+            ],
+            [
+              0.612,
+              0.501
+            ],
+            [
+              0.52,
+              0.451
+            ],
+            [
+              0.433,
+              0.391
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.875,
+            0.471
+          ],
+          "floor": true,
+          "note": "Upper edge of the steps and floor strip below the banner"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "entry-R5-R6",
+      "image": "scenes/joints-v2/entry-R5-R6.png",
+      "mask": "walkmask/joints/entry-R5-R6.png",
+      "artSha256": "9e6a2d41b2c56a6aa2e440bc9cc79ced381ec246935e782a8894f8542c2df4fc",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-R5-R6",
+      "image": "scenes/joints-v2/exit-R5-R6.png",
+      "mask": "walkmask/joints/exit-R5-R6.png",
+      "artSha256": "3e1317277031b393d274af7d945cf84631197067c76ba303e0c9c5fccaf4ff25",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-T1-T2",
+      "image": "scenes/joints-v2/entry-T1-T2.png",
+      "mask": "walkmask/joints/entry-T1-T2.png",
+      "artSha256": "e4406d3a0ed89dacb59ca65e1ed43f370e3dd7969d58145f1fce9ed55db38f7c",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Rear bridge parapet and crystal footing; Foreground bridge pillar footing; retain the floor behind its tall silhouette",
+      "edits": [
+        {
+          "floor": false,
+          "note": "Rear bridge parapet and crystal footing",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.659
+            ],
+            [
+              0.924,
+              0.635
+            ],
+            [
+              0.879,
+              0.613
+            ],
+            [
+              0.853,
+              0.604
+            ],
+            [
+              0.809,
+              0.581
+            ],
+            [
+              0.723,
+              0.542
+            ],
+            [
+              0.68,
+              0.535
+            ],
+            [
+              0.646,
+              0.52
+            ],
+            [
+              0.618,
+              0.528
+            ],
+            [
+              0.588,
+              0.51
+            ],
+            [
+              0.557,
+              0.488
+            ],
+            [
+              0.485,
+              0.455
+            ],
+            [
+              0.407,
+              0.417
+            ],
+            [
+              0.35,
+              0.439
+            ],
+            [
+              0.28,
+              0.455
+            ],
+            [
+              0.237,
+              0.453
+            ],
+            [
+              0.148,
+              0.449
+            ],
+            [
+              0,
+              0.395
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Foreground bridge pillar footing; retain the floor behind its tall silhouette",
+          "points": [
+            [
+              0,
+              0.625
+            ],
+            [
+              0.025,
+              0.598
+            ],
+            [
+              0.07,
+              0.594
+            ],
+            [
+              0.104,
+              0.6
+            ],
+            [
+              0.126,
+              0.621
+            ],
+            [
+              0.151,
+              0.628
+            ],
+            [
+              0.154,
+              0.673
+            ],
+            [
+              0.13,
+              0.735
+            ],
+            [
+              0,
+              0.77
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.73,
+            0.504
+          ],
+          "floor": false,
+          "note": "Rear bridge parapet and crystal footing"
+        },
+        {
+          "uv": [
+            0.08,
+            0.625
+          ],
+          "floor": false,
+          "note": "Foreground bridge pillar footing; retain the floor behind its tall silhouette"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "exit-T1-T2",
+      "image": "scenes/joints-v2/exit-T1-T2.png",
+      "mask": "walkmask/joints/exit-T1-T2.png",
+      "artSha256": "9386e3cf0120b9ee7ce7bc112d31f5a401e8a9334fd98da330a7cee373e953bc",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Rear left parapet and square pillars",
+      "edits": [
+        {
+          "floor": false,
+          "note": "Rear left parapet and square pillars",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.798,
+              0
+            ],
+            [
+              0.798,
+              0.469
+            ],
+            [
+              0.775,
+              0.494
+            ],
+            [
+              0.731,
+              0.483
+            ],
+            [
+              0.699,
+              0.449
+            ],
+            [
+              0.646,
+              0.42
+            ],
+            [
+              0.59,
+              0.396
+            ],
+            [
+              0.552,
+              0.392
+            ],
+            [
+              0.5,
+              0.425
+            ],
+            [
+              0.459,
+              0.454
+            ],
+            [
+              0.411,
+              0.49
+            ],
+            [
+              0.391,
+              0.522
+            ],
+            [
+              0.369,
+              0.55
+            ],
+            [
+              0.32,
+              0.568
+            ],
+            [
+              0.27,
+              0.605
+            ],
+            [
+              0.199,
+              0.637
+            ],
+            [
+              0.129,
+              0.672
+            ],
+            [
+              0.06,
+              0.706
+            ],
+            [
+              0,
+              0.723
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.32,
+            0.5
+          ],
+          "floor": false,
+          "note": "Rear left parapet and square pillars"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "entry-T2-T3",
+      "image": "scenes/joints-v2/entry-T2-T3.png",
+      "mask": "walkmask/joints/entry-T2-T3.png",
+      "artSha256": "0cb843556b19d462976cd5f6b63b9f0d0a02567d927ab6b9e47f95e5a1cb10ad",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-T2-T3",
+      "image": "scenes/joints-v2/exit-T2-T3.png",
+      "mask": "walkmask/joints/exit-T2-T3.png",
+      "artSha256": "ad5c11a31a1dcfb25275ff01da49f6b415a680a56f8ae04818c4a6dbfd5627b8",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-T3-T4",
+      "image": "scenes/joints-v2/entry-T3-T4.png",
+      "mask": "walkmask/joints/entry-T3-T4.png",
+      "artSha256": "8bb10784406bdee553544cc1d8d72d85314b09f79c03e8f6df2f3ee16fa92969",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-T3-T4",
+      "image": "scenes/joints-v2/exit-T3-T4.png",
+      "mask": "walkmask/joints/exit-T3-T4.png",
+      "artSha256": "59b61d9627c0e62db774acb06fba0546d537841f2e723528a42f1234c3270e85",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Full width of the lower stair treads and bend landing; Rear stair-side lamp and pillar footing",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Full width of the lower stair treads and bend landing",
+          "points": [
+            [
+              0.118,
+              1
+            ],
+            [
+              0.14,
+              0.934
+            ],
+            [
+              0.184,
+              0.833
+            ],
+            [
+              0.227,
+              0.765
+            ],
+            [
+              0.279,
+              0.697
+            ],
+            [
+              0.341,
+              0.652
+            ],
+            [
+              0.411,
+              0.613
+            ],
+            [
+              0.491,
+              0.574
+            ],
+            [
+              0.552,
+              0.536
+            ],
+            [
+              0.601,
+              0.492
+            ],
+            [
+              0.617,
+              0.514
+            ],
+            [
+              0.589,
+              0.556
+            ],
+            [
+              0.53,
+              0.596
+            ],
+            [
+              0.456,
+              0.635
+            ],
+            [
+              0.397,
+              0.678
+            ],
+            [
+              0.35,
+              0.731
+            ],
+            [
+              0.306,
+              0.792
+            ],
+            [
+              0.273,
+              0.86
+            ],
+            [
+              0.241,
+              0.943
+            ],
+            [
+              0.222,
+              1
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Rear stair-side lamp and pillar footing",
+          "points": [
+            [
+              0,
+              0.695
+            ],
+            [
+              0.055,
+              0.656
+            ],
+            [
+              0.1,
+              0.619
+            ],
+            [
+              0.131,
+              0.619
+            ],
+            [
+              0.159,
+              0.64
+            ],
+            [
+              0.179,
+              0.671
+            ],
+            [
+              0.178,
+              0.698
+            ],
+            [
+              0.147,
+              0.72
+            ],
+            [
+              0.111,
+              0.726
+            ],
+            [
+              0.066,
+              0.77
+            ],
+            [
+              0,
+              0.792
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.245,
+            0.87
+          ],
+          "floor": true,
+          "note": "Full width of the lower stair treads and bend landing"
+        },
+        {
+          "uv": [
+            0.149,
+            0.682
+          ],
+          "floor": false,
+          "note": "Rear stair-side lamp and pillar footing"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "entry-T3-T5",
+      "image": "scenes/joints-v2/entry-T3-T5.png",
+      "mask": "walkmask/joints/entry-T3-T5.png",
+      "artSha256": "f4d0242c3624013e71e82242e04a442151f03ee17030b818c98561fd249c834d",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-T3-T5",
+      "image": "scenes/joints-v2/exit-T3-T5.png",
+      "mask": "walkmask/joints/exit-T3-T5.png",
+      "artSha256": "905db4aae6a2dda86de22a7c309d74124b97a5f9b81ac5aaa16900088304f6cd",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Rear railing and isolated pillar are solid",
+      "edits": [
+        {
+          "floor": false,
+          "note": "Rear railing and isolated pillar are solid",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.466
+            ],
+            [
+              0.939,
+              0.484
+            ],
+            [
+              0.894,
+              0.507
+            ],
+            [
+              0.848,
+              0.512
+            ],
+            [
+              0.788,
+              0.526
+            ],
+            [
+              0.726,
+              0.526
+            ],
+            [
+              0.672,
+              0.505
+            ],
+            [
+              0.617,
+              0.473
+            ],
+            [
+              0.554,
+              0.439
+            ],
+            [
+              0.489,
+              0.41
+            ],
+            [
+              0.425,
+              0.385
+            ],
+            [
+              0.359,
+              0.355
+            ],
+            [
+              0.32,
+              0.349
+            ],
+            [
+              0.299,
+              0.364
+            ],
+            [
+              0.296,
+              0.429
+            ],
+            [
+              0.266,
+              0.459
+            ],
+            [
+              0.233,
+              0.455
+            ],
+            [
+              0.196,
+              0.434
+            ],
+            [
+              0.157,
+              0.409
+            ],
+            [
+              0.113,
+              0.363
+            ],
+            [
+              0,
+              0.311
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.258,
+            0.41
+          ],
+          "floor": false,
+          "note": "Rear railing and isolated pillar are solid"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "entry-T5-T7",
+      "image": "scenes/joints-v2/entry-T5-T7.png",
+      "mask": "walkmask/joints/entry-T5-T7.png",
+      "artSha256": "9311a8beecb0787bc6e4fc5ae7710d5c3f43d26e836c9c8ef65fb60ccf9ce4f2",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Library entrance paving beside the bridge; Rear bridge railing and lamp bases",
+      "edits": [
+        {
+          "floor": true,
+          "note": "Library entrance paving beside the bridge",
+          "points": [
+            [
+              0.744,
+              0.415
+            ],
+            [
+              0.794,
+              0.39
+            ],
+            [
+              0.847,
+              0.378
+            ],
+            [
+              0.873,
+              0.347
+            ],
+            [
+              0.921,
+              0.339
+            ],
+            [
+              1,
+              0.305
+            ],
+            [
+              1,
+              0.479
+            ],
+            [
+              0.895,
+              0.478
+            ],
+            [
+              0.813,
+              0.453
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Rear bridge railing and lamp bases",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              0.77,
+              0
+            ],
+            [
+              0.77,
+              0.421
+            ],
+            [
+              0.718,
+              0.412
+            ],
+            [
+              0.657,
+              0.384
+            ],
+            [
+              0.599,
+              0.363
+            ],
+            [
+              0.543,
+              0.39
+            ],
+            [
+              0.478,
+              0.428
+            ],
+            [
+              0.419,
+              0.471
+            ],
+            [
+              0.381,
+              0.509
+            ],
+            [
+              0.338,
+              0.548
+            ],
+            [
+              0.294,
+              0.571
+            ],
+            [
+              0.249,
+              0.608
+            ],
+            [
+              0.195,
+              0.636
+            ],
+            [
+              0.129,
+              0.667
+            ],
+            [
+              0.055,
+              0.703
+            ],
+            [
+              0,
+              0.716
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.929,
+            0.397
+          ],
+          "floor": true,
+          "note": "Library entrance paving beside the bridge"
+        },
+        {
+          "uv": [
+            0.27,
+            0.54
+          ],
+          "floor": false,
+          "note": "Rear bridge railing and lamp bases"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "exit-T5-T7",
+      "image": "scenes/joints-v2/exit-T5-T7.png",
+      "mask": "walkmask/joints/exit-T5-T7.png",
+      "artSha256": "5f77051ef51da3e05562d1488297e5b9107f4f791c4d8197cc4a36e9e43d8290",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Rear parapet and broken masonry bases",
+      "edits": [
+        {
+          "floor": false,
+          "note": "Rear parapet and broken masonry bases",
+          "points": [
+            [
+              0,
+              0
+            ],
+            [
+              1,
+              0
+            ],
+            [
+              1,
+              0.699
+            ],
+            [
+              0.943,
+              0.676
+            ],
+            [
+              0.89,
+              0.652
+            ],
+            [
+              0.832,
+              0.612
+            ],
+            [
+              0.782,
+              0.58
+            ],
+            [
+              0.719,
+              0.55
+            ],
+            [
+              0.664,
+              0.522
+            ],
+            [
+              0.598,
+              0.498
+            ],
+            [
+              0.537,
+              0.478
+            ],
+            [
+              0.465,
+              0.455
+            ],
+            [
+              0.419,
+              0.449
+            ],
+            [
+              0.365,
+              0.445
+            ],
+            [
+              0.327,
+              0.47
+            ],
+            [
+              0.279,
+              0.455
+            ],
+            [
+              0.241,
+              0.431
+            ],
+            [
+              0.213,
+              0.401
+            ],
+            [
+              0.167,
+              0.374
+            ],
+            [
+              0.113,
+              0.352
+            ],
+            [
+              0.058,
+              0.326
+            ],
+            [
+              0,
+              0.301
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.75,
+            0.53
+          ],
+          "floor": false,
+          "note": "Rear parapet and broken masonry bases"
+        }
+      ]
+    },
+    {
+      "kind": "joints",
+      "id": "entry-T7-T6",
+      "image": "scenes/joints-v2/entry-T7-T6.png",
+      "mask": "walkmask/joints/entry-T7-T6.png",
+      "artSha256": "b6f73d04b9bd0da6151c9d45e6202ce63b79852c9398128379fb461e1a074626",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "exit-T7-T6",
+      "image": "scenes/joints-v2/exit-T7-T6.png",
+      "mask": "walkmask/joints/exit-T7-T6.png",
+      "artSha256": "5b766efa651969dcbfc53bd0a914f8f8d9e79dd1f9a8435cd0cce33782298914",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "reviewed-preserved",
+      "note": "Reviewed visible floor, stairs, solid prop footings and outer drop; retained the existing mask.",
+      "edits": [],
+      "samples": []
+    },
+    {
+      "kind": "joints",
+      "id": "entry-CAMP-V",
+      "image": "scenes/joints-v2/entry-CAMP-V.png",
+      "mask": "walkmask/joints/entry-CAMP-V.png",
+      "artSha256": "55a34a2c6acadafbeb0b61acf1ff0f1119f87e2ad01e5ec48bda2d38648446f5",
+      "size": [
+        1254,
+        1254
+      ],
+      "status": "corrected",
+      "note": "Campfire stone ring in the overlay; Rocks left of the lower stairs; Rocks and fence right of the lower stairs",
+      "edits": [
+        {
+          "floor": false,
+          "note": "Campfire stone ring in the overlay",
+          "points": [
+            [
+              0.427,
+              0
+            ],
+            [
+              0.625,
+              0
+            ],
+            [
+              0.631,
+              0.052
+            ],
+            [
+              0.595,
+              0.088
+            ],
+            [
+              0.522,
+              0.099
+            ],
+            [
+              0.452,
+              0.074
+            ],
+            [
+              0.429,
+              0.045
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Rocks left of the lower stairs",
+          "points": [
+            [
+              0,
+              0.825
+            ],
+            [
+              0.102,
+              0.774
+            ],
+            [
+              0.231,
+              0.721
+            ],
+            [
+              0.321,
+              0.69
+            ],
+            [
+              0.391,
+              0.671
+            ],
+            [
+              0.368,
+              0.75
+            ],
+            [
+              0.31,
+              0.824
+            ],
+            [
+              0.26,
+              0.91
+            ],
+            [
+              0.27,
+              1
+            ],
+            [
+              0,
+              1
+            ]
+          ]
+        },
+        {
+          "floor": false,
+          "note": "Rocks and fence right of the lower stairs",
+          "points": [
+            [
+              0.603,
+              0.688
+            ],
+            [
+              0.673,
+              0.727
+            ],
+            [
+              0.76,
+              0.768
+            ],
+            [
+              0.853,
+              0.806
+            ],
+            [
+              1,
+              0.846
+            ],
+            [
+              1,
+              1
+            ],
+            [
+              0.775,
+              1
+            ],
+            [
+              0.742,
+              0.927
+            ],
+            [
+              0.713,
+              0.844
+            ],
+            [
+              0.662,
+              0.773
+            ]
+          ]
+        }
+      ],
+      "samples": [
+        {
+          "uv": [
+            0.525,
+            0.052
+          ],
+          "floor": false,
+          "note": "Campfire stone ring in the overlay"
+        },
+        {
+          "uv": [
+            0.16,
+            0.875
+          ],
+          "floor": false,
+          "note": "Rocks left of the lower stairs"
+        },
+        {
+          "uv": [
+            0.854,
+            0.93
+          ],
+          "floor": false,
+          "note": "Rocks and fence right of the lower stairs"
+        }
+      ]
+    }
+  ]
+}

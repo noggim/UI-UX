@@ -1,0 +1,1990 @@
+{
+  "sprites": {
+    "hero_down": {
+      "sheet": "hd/hero.png",
+      "x": 100,
+      "y": 20,
+      "width": 360,
+      "height": 480,
+      "drawWidth": 18,
+      "drawHeight": 24
+    },
+    "hero_down_walk": {
+      "sheet": "hd/hero.png",
+      "x": 100,
+      "y": 532,
+      "width": 360,
+      "height": 480,
+      "drawWidth": 18,
+      "drawHeight": 24
+    },
+    "hero_up": {
+      "sheet": "hd/hero.png",
+      "x": 612,
+      "y": 20,
+      "width": 360,
+      "height": 480,
+      "drawWidth": 18,
+      "drawHeight": 24
+    },
+    "hero_up_walk": {
+      "sheet": "hd/hero.png",
+      "x": 612,
+      "y": 532,
+      "width": 360,
+      "height": 480,
+      "drawWidth": 18,
+      "drawHeight": 24
+    },
+    "hero_side": {
+      "sheet": "hd/hero.png",
+      "x": 1124,
+      "y": 20,
+      "width": 360,
+      "height": 480,
+      "drawWidth": 18,
+      "drawHeight": 24
+    },
+    "hero_side_walk": {
+      "sheet": "hd/hero.png",
+      "x": 1124,
+      "y": 532,
+      "width": 360,
+      "height": 480,
+      "drawWidth": 18,
+      "drawHeight": 24
+    },
+    "bat": {
+      "sheet": "hd/enemies.png",
+      "x": 0,
+      "y": 55,
+      "width": 460,
+      "height": 360,
+      "drawWidth": 27,
+      "drawHeight": 21
+    },
+    "skeleton": {
+      "sheet": "hd/enemies.png",
+      "x": 465,
+      "y": 80,
+      "width": 325,
+      "height": 415,
+      "drawWidth": 18,
+      "drawHeight": 23
+    },
+    "imp": {
+      "sheet": "hd/enemies.png",
+      "x": 796,
+      "y": 148,
+      "width": 320,
+      "height": 334,
+      "drawWidth": 21,
+      "drawHeight": 22
+    },
+    "golem": {
+      "sheet": "hd/enemies.png",
+      "x": 1120,
+      "y": 60,
+      "width": 416,
+      "height": 448,
+      "drawWidth": 25,
+      "drawHeight": 27
+    },
+    "knight": {
+      "sheet": "hd/enemies.png",
+      "x": 8,
+      "y": 523,
+      "width": 398,
+      "height": 463,
+      "drawWidth": 22,
+      "drawHeight": 26
+    },
+    "warden": {
+      "sheet": "hd/enemies.png",
+      "x": 412,
+      "y": 540,
+      "width": 375,
+      "height": 449,
+      "drawWidth": 22,
+      "drawHeight": 26
+    },
+    "demonlord": {
+      "sheet": "hd/enemies.png",
+      "x": 789,
+      "y": 501,
+      "width": 412,
+      "height": 500,
+      "drawWidth": 24,
+      "drawHeight": 29
+    },
+    "sword_holy": {
+      "sheet": "hd/sword_holy.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "sword_blackiron": {
+      "sheet": "hd/sword_blackiron.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "sword_bloodmoon": {
+      "sheet": "hd/sword_bloodmoon.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "sword_skyfall": {
+      "sheet": "hd/sword_skyfall.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "sword_holy_awakened": {
+      "sheet": "hd/sword_holy_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "sword_blackiron_awakened": {
+      "sheet": "hd/sword_blackiron_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "sword_bloodmoon_awakened": {
+      "sheet": "hd/sword_bloodmoon_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "sword_skyfall_awakened": {
+      "sheet": "hd/sword_skyfall_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "forge": {
+      "sheet": "hd/props.png",
+      "x": 65,
+      "y": 35,
+      "width": 465,
+      "height": 490,
+      "drawWidth": 36,
+      "drawHeight": 38
+    },
+    "bed": {
+      "sheet": "hd/props.png",
+      "x": 590,
+      "y": 100,
+      "width": 412,
+      "height": 420,
+      "drawWidth": 30,
+      "drawHeight": 31
+    },
+    "campfire": {
+      "sheet": "hd/props.png",
+      "x": 1070,
+      "y": 55,
+      "width": 445,
+      "height": 455,
+      "drawWidth": 22,
+      "drawHeight": 23
+    },
+    "campfire2": {
+      "sheet": "hd/props.png",
+      "x": 1070,
+      "y": 55,
+      "width": 445,
+      "height": 455,
+      "drawWidth": 22,
+      "drawHeight": 23
+    },
+    "vein_BLACKIRON": {
+      "sheet": "hd/props.png",
+      "x": 50,
+      "y": 550,
+      "width": 444,
+      "height": 430,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "gem_BLACKIRON": {
+      "sheet": "hd/props.png",
+      "x": 50,
+      "y": 550,
+      "width": 444,
+      "height": 430,
+      "drawWidth": 12,
+      "drawHeight": 12
+    },
+    "vein_BLOODMOON": {
+      "sheet": "hd/props.png",
+      "x": 562,
+      "y": 550,
+      "width": 444,
+      "height": 430,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "gem_BLOODMOON": {
+      "sheet": "hd/props.png",
+      "x": 562,
+      "y": 550,
+      "width": 444,
+      "height": 430,
+      "drawWidth": 12,
+      "drawHeight": 12
+    },
+    "vein_SKY": {
+      "sheet": "hd/props.png",
+      "x": 1074,
+      "y": 550,
+      "width": 444,
+      "height": 430,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "gem_SKY": {
+      "sheet": "hd/props.png",
+      "x": 1074,
+      "y": 550,
+      "width": 444,
+      "height": 430,
+      "drawWidth": 12,
+      "drawHeight": 12
+    },
+    "floor_CAMP_hd0": {
+      "sheet": "hd/terrain.png",
+      "x": 0,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd1": {
+      "sheet": "hd/terrain.png",
+      "x": 111,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd2": {
+      "sheet": "hd/terrain.png",
+      "x": 222,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd3": {
+      "sheet": "hd/terrain.png",
+      "x": 333,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd4": {
+      "sheet": "hd/terrain.png",
+      "x": 0,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd5": {
+      "sheet": "hd/terrain.png",
+      "x": 111,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd6": {
+      "sheet": "hd/terrain.png",
+      "x": 222,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd7": {
+      "sheet": "hd/terrain.png",
+      "x": 333,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd8": {
+      "sheet": "hd/terrain.png",
+      "x": 0,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd9": {
+      "sheet": "hd/terrain.png",
+      "x": 111,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd10": {
+      "sheet": "hd/terrain.png",
+      "x": 222,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd11": {
+      "sheet": "hd/terrain.png",
+      "x": 333,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd12": {
+      "sheet": "hd/terrain.png",
+      "x": 0,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd13": {
+      "sheet": "hd/terrain.png",
+      "x": 111,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd14": {
+      "sheet": "hd/terrain.png",
+      "x": 222,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_CAMP_hd15": {
+      "sheet": "hd/terrain.png",
+      "x": 333,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "walltop_CAMP": {
+      "sheet": "hd/terrain.png",
+      "x": 1,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "wallfront_CAMP": {
+      "sheet": "hd/terrain.png",
+      "x": 1,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd0": {
+      "sheet": "hd/terrain.png",
+      "x": 444,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd1": {
+      "sheet": "hd/terrain.png",
+      "x": 554,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd2": {
+      "sheet": "hd/terrain.png",
+      "x": 665,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd3": {
+      "sheet": "hd/terrain.png",
+      "x": 776,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd4": {
+      "sheet": "hd/terrain.png",
+      "x": 444,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd5": {
+      "sheet": "hd/terrain.png",
+      "x": 554,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd6": {
+      "sheet": "hd/terrain.png",
+      "x": 665,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd7": {
+      "sheet": "hd/terrain.png",
+      "x": 776,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd8": {
+      "sheet": "hd/terrain.png",
+      "x": 444,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd9": {
+      "sheet": "hd/terrain.png",
+      "x": 554,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd10": {
+      "sheet": "hd/terrain.png",
+      "x": 665,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd11": {
+      "sheet": "hd/terrain.png",
+      "x": 776,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd12": {
+      "sheet": "hd/terrain.png",
+      "x": 444,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd13": {
+      "sheet": "hd/terrain.png",
+      "x": 554,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd14": {
+      "sheet": "hd/terrain.png",
+      "x": 665,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_LEFT_hd15": {
+      "sheet": "hd/terrain.png",
+      "x": 776,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "walltop_LEFT": {
+      "sheet": "hd/terrain.png",
+      "x": 445,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "wallfront_LEFT": {
+      "sheet": "hd/terrain.png",
+      "x": 445,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd0": {
+      "sheet": "hd/terrain.png",
+      "x": 887,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd1": {
+      "sheet": "hd/terrain.png",
+      "x": 998,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd2": {
+      "sheet": "hd/terrain.png",
+      "x": 1109,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd3": {
+      "sheet": "hd/terrain.png",
+      "x": 1220,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd4": {
+      "sheet": "hd/terrain.png",
+      "x": 887,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd5": {
+      "sheet": "hd/terrain.png",
+      "x": 998,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd6": {
+      "sheet": "hd/terrain.png",
+      "x": 1109,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd7": {
+      "sheet": "hd/terrain.png",
+      "x": 1220,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd8": {
+      "sheet": "hd/terrain.png",
+      "x": 887,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd9": {
+      "sheet": "hd/terrain.png",
+      "x": 998,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd10": {
+      "sheet": "hd/terrain.png",
+      "x": 1109,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd11": {
+      "sheet": "hd/terrain.png",
+      "x": 1220,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd12": {
+      "sheet": "hd/terrain.png",
+      "x": 887,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd13": {
+      "sheet": "hd/terrain.png",
+      "x": 998,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd14": {
+      "sheet": "hd/terrain.png",
+      "x": 1109,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_RIGHT_hd15": {
+      "sheet": "hd/terrain.png",
+      "x": 1220,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "walltop_RIGHT": {
+      "sheet": "hd/terrain.png",
+      "x": 888,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "wallfront_RIGHT": {
+      "sheet": "hd/terrain.png",
+      "x": 888,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd0": {
+      "sheet": "hd/terrain.png",
+      "x": 1331,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd1": {
+      "sheet": "hd/terrain.png",
+      "x": 1441,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd2": {
+      "sheet": "hd/terrain.png",
+      "x": 1552,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd3": {
+      "sheet": "hd/terrain.png",
+      "x": 1663,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd4": {
+      "sheet": "hd/terrain.png",
+      "x": 1331,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd5": {
+      "sheet": "hd/terrain.png",
+      "x": 1441,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd6": {
+      "sheet": "hd/terrain.png",
+      "x": 1552,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd7": {
+      "sheet": "hd/terrain.png",
+      "x": 1663,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd8": {
+      "sheet": "hd/terrain.png",
+      "x": 1331,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd9": {
+      "sheet": "hd/terrain.png",
+      "x": 1441,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd10": {
+      "sheet": "hd/terrain.png",
+      "x": 1552,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd11": {
+      "sheet": "hd/terrain.png",
+      "x": 1663,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd12": {
+      "sheet": "hd/terrain.png",
+      "x": 1331,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd13": {
+      "sheet": "hd/terrain.png",
+      "x": 1441,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd14": {
+      "sheet": "hd/terrain.png",
+      "x": 1552,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "floor_TOP_hd15": {
+      "sheet": "hd/terrain.png",
+      "x": 1663,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "walltop_TOP": {
+      "sheet": "hd/terrain.png",
+      "x": 1332,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "wallfront_TOP": {
+      "sheet": "hd/terrain.png",
+      "x": 1332,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "title_background": {
+      "sheet": "hd/title.png",
+      "x": 0,
+      "y": 0,
+      "width": 1672,
+      "height": 941,
+      "drawWidth": 1280,
+      "drawHeight": 720
+    },
+    "title_keyart": {
+      "sheet": "hd/title_keyart.png",
+      "x": 0,
+      "y": 0,
+      "width": 1672,
+      "height": 941,
+      "drawWidth": 1280,
+      "drawHeight": 720
+    },
+    "world_hero_down": {
+      "sheet": "world/hero-harmony-v1.png",
+      "x": 95,
+      "y": 10,
+      "width": 360,
+      "height": 500,
+      "drawWidth": 18,
+      "drawHeight": 24,
+      "pixelMip": true
+    },
+    "world_hero_down_walk": {
+      "sheet": "world/hero-harmony-v1.png",
+      "x": 95,
+      "y": 512,
+      "width": 360,
+      "height": 500,
+      "drawWidth": 18,
+      "drawHeight": 24,
+      "pixelMip": true
+    },
+    "world_hero_up": {
+      "sheet": "world/hero-harmony-v1.png",
+      "x": 590,
+      "y": 10,
+      "width": 360,
+      "height": 500,
+      "drawWidth": 18,
+      "drawHeight": 24,
+      "pixelMip": true
+    },
+    "world_hero_up_walk": {
+      "sheet": "world/hero-harmony-v1.png",
+      "x": 590,
+      "y": 512,
+      "width": 360,
+      "height": 500,
+      "drawWidth": 18,
+      "drawHeight": 24,
+      "pixelMip": true
+    },
+    "world_hero_side": {
+      "sheet": "world/hero-harmony-v1.png",
+      "x": 1085,
+      "y": 10,
+      "width": 360,
+      "height": 500,
+      "drawWidth": 18,
+      "drawHeight": 24,
+      "pixelMip": true
+    },
+    "world_hero_side_walk": {
+      "sheet": "world/hero-harmony-v1.png",
+      "x": 1085,
+      "y": 512,
+      "width": 360,
+      "height": 500,
+      "drawWidth": 18,
+      "drawHeight": 24,
+      "pixelMip": true
+    },
+    "world_bat": {
+      "sheet": "world/enemies.png",
+      "x": 60,
+      "y": 190,
+      "width": 286,
+      "height": 226,
+      "drawWidth": 27,
+      "drawHeight": 21,
+      "pixelMip": true
+    },
+    "world_skeleton": {
+      "sheet": "world/enemies.png",
+      "x": 419,
+      "y": 131,
+      "width": 306,
+      "height": 319,
+      "drawWidth": 18,
+      "drawHeight": 23,
+      "pixelMip": true
+    },
+    "world_imp": {
+      "sheet": "world/enemies.png",
+      "x": 835,
+      "y": 184,
+      "width": 235,
+      "height": 265,
+      "drawWidth": 21,
+      "drawHeight": 22,
+      "pixelMip": true
+    },
+    "world_golem": {
+      "sheet": "world/enemies.png",
+      "x": 1176,
+      "y": 130,
+      "width": 324,
+      "height": 319,
+      "drawWidth": 25,
+      "drawHeight": 27,
+      "pixelMip": true
+    },
+    "world_knight": {
+      "sheet": "world/enemies.png",
+      "x": 43,
+      "y": 583,
+      "width": 306,
+      "height": 336,
+      "drawWidth": 22,
+      "drawHeight": 26,
+      "pixelMip": true
+    },
+    "world_warden": {
+      "sheet": "world/enemies.png",
+      "x": 435,
+      "y": 603,
+      "width": 283,
+      "height": 320,
+      "drawWidth": 22,
+      "drawHeight": 26,
+      "pixelMip": true
+    },
+    "world_demonlord": {
+      "sheet": "world/enemies.png",
+      "x": 805,
+      "y": 569,
+      "width": 323,
+      "height": 355,
+      "drawWidth": 24,
+      "drawHeight": 29,
+      "pixelMip": true
+    },
+    "world_forge": {
+      "sheet": "world/props.png",
+      "x": 70,
+      "y": 40,
+      "width": 470,
+      "height": 508,
+      "drawWidth": 36,
+      "drawHeight": 38
+    },
+    "world_bed": {
+      "sheet": "world/props.png",
+      "x": 608,
+      "y": 133,
+      "width": 394,
+      "height": 404,
+      "drawWidth": 30,
+      "drawHeight": 31
+    },
+    "world_campfire": {
+      "sheet": "world/props.png",
+      "x": 1090,
+      "y": 100,
+      "width": 410,
+      "height": 447,
+      "drawWidth": 22,
+      "drawHeight": 23
+    },
+    "world_campfire2": {
+      "sheet": "world/props.png",
+      "x": 1090,
+      "y": 100,
+      "width": 410,
+      "height": 447,
+      "drawWidth": 22,
+      "drawHeight": 23
+    },
+    "world_vein_BLACKIRON": {
+      "sheet": "world/props.png",
+      "x": 65,
+      "y": 580,
+      "width": 448,
+      "height": 405,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_vein_BLOODMOON": {
+      "sheet": "world/props.png",
+      "x": 580,
+      "y": 578,
+      "width": 433,
+      "height": 403,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_vein_SKY": {
+      "sheet": "world/props.png",
+      "x": 1088,
+      "y": 570,
+      "width": 421,
+      "height": 414,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_gem_BLACKIRON": {
+      "sheet": "world/props.png",
+      "x": 65,
+      "y": 580,
+      "width": 448,
+      "height": 405,
+      "drawWidth": 12,
+      "drawHeight": 12
+    },
+    "world_gem_BLOODMOON": {
+      "sheet": "world/props.png",
+      "x": 580,
+      "y": 578,
+      "width": 433,
+      "height": 403,
+      "drawWidth": 12,
+      "drawHeight": 12
+    },
+    "world_gem_SKY": {
+      "sheet": "world/props.png",
+      "x": 1088,
+      "y": 570,
+      "width": 421,
+      "height": 414,
+      "drawWidth": 12,
+      "drawHeight": 12
+    },
+    "world_sword_holy": {
+      "sheet": "world/sword_holy.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_sword_blackiron": {
+      "sheet": "world/sword_blackiron.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_sword_bloodmoon": {
+      "sheet": "world/sword_bloodmoon.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_sword_skyfall": {
+      "sheet": "world/sword_skyfall.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_sword_holy_awakened": {
+      "sheet": "world/sword_holy_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_sword_blackiron_awakened": {
+      "sheet": "world/sword_blackiron_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_sword_bloodmoon_awakened": {
+      "sheet": "world/sword_bloodmoon_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_sword_skyfall_awakened": {
+      "sheet": "world/sword_skyfall_awakened.png",
+      "x": 0,
+      "y": 0,
+      "width": 1254,
+      "height": 1254,
+      "drawWidth": 16,
+      "drawHeight": 16,
+      "pixelMip": true
+    },
+    "world_floor_CAMP_hd0": {
+      "sheet": "world/terrain.png",
+      "x": 0,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd1": {
+      "sheet": "world/terrain.png",
+      "x": 111,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd2": {
+      "sheet": "world/terrain.png",
+      "x": 222,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd3": {
+      "sheet": "world/terrain.png",
+      "x": 333,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd4": {
+      "sheet": "world/terrain.png",
+      "x": 0,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd5": {
+      "sheet": "world/terrain.png",
+      "x": 111,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd6": {
+      "sheet": "world/terrain.png",
+      "x": 222,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd7": {
+      "sheet": "world/terrain.png",
+      "x": 333,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd8": {
+      "sheet": "world/terrain.png",
+      "x": 0,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd9": {
+      "sheet": "world/terrain.png",
+      "x": 111,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd10": {
+      "sheet": "world/terrain.png",
+      "x": 222,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd11": {
+      "sheet": "world/terrain.png",
+      "x": 333,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd12": {
+      "sheet": "world/terrain.png",
+      "x": 0,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd13": {
+      "sheet": "world/terrain.png",
+      "x": 111,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd14": {
+      "sheet": "world/terrain.png",
+      "x": 222,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_CAMP_hd15": {
+      "sheet": "world/terrain.png",
+      "x": 333,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_walltop_CAMP": {
+      "sheet": "world/terrain.png",
+      "x": 1,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_wallfront_CAMP": {
+      "sheet": "world/terrain.png",
+      "x": 1,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd0": {
+      "sheet": "world/terrain.png",
+      "x": 444,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd1": {
+      "sheet": "world/terrain.png",
+      "x": 554,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd2": {
+      "sheet": "world/terrain.png",
+      "x": 665,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd3": {
+      "sheet": "world/terrain.png",
+      "x": 776,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd4": {
+      "sheet": "world/terrain.png",
+      "x": 444,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd5": {
+      "sheet": "world/terrain.png",
+      "x": 554,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd6": {
+      "sheet": "world/terrain.png",
+      "x": 665,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd7": {
+      "sheet": "world/terrain.png",
+      "x": 776,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd8": {
+      "sheet": "world/terrain.png",
+      "x": 444,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd9": {
+      "sheet": "world/terrain.png",
+      "x": 554,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd10": {
+      "sheet": "world/terrain.png",
+      "x": 665,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd11": {
+      "sheet": "world/terrain.png",
+      "x": 776,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd12": {
+      "sheet": "world/terrain.png",
+      "x": 444,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd13": {
+      "sheet": "world/terrain.png",
+      "x": 554,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd14": {
+      "sheet": "world/terrain.png",
+      "x": 665,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_LEFT_hd15": {
+      "sheet": "world/terrain.png",
+      "x": 776,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_walltop_LEFT": {
+      "sheet": "world/terrain.png",
+      "x": 445,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_wallfront_LEFT": {
+      "sheet": "world/terrain.png",
+      "x": 445,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd0": {
+      "sheet": "world/terrain.png",
+      "x": 887,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd1": {
+      "sheet": "world/terrain.png",
+      "x": 998,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd2": {
+      "sheet": "world/terrain.png",
+      "x": 1109,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd3": {
+      "sheet": "world/terrain.png",
+      "x": 1220,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd4": {
+      "sheet": "world/terrain.png",
+      "x": 887,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd5": {
+      "sheet": "world/terrain.png",
+      "x": 998,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd6": {
+      "sheet": "world/terrain.png",
+      "x": 1109,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd7": {
+      "sheet": "world/terrain.png",
+      "x": 1220,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd8": {
+      "sheet": "world/terrain.png",
+      "x": 887,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd9": {
+      "sheet": "world/terrain.png",
+      "x": 998,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd10": {
+      "sheet": "world/terrain.png",
+      "x": 1109,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd11": {
+      "sheet": "world/terrain.png",
+      "x": 1220,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd12": {
+      "sheet": "world/terrain.png",
+      "x": 887,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd13": {
+      "sheet": "world/terrain.png",
+      "x": 998,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd14": {
+      "sheet": "world/terrain.png",
+      "x": 1109,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_RIGHT_hd15": {
+      "sheet": "world/terrain.png",
+      "x": 1220,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_walltop_RIGHT": {
+      "sheet": "world/terrain.png",
+      "x": 888,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_wallfront_RIGHT": {
+      "sheet": "world/terrain.png",
+      "x": 888,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd0": {
+      "sheet": "world/terrain.png",
+      "x": 1331,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd1": {
+      "sheet": "world/terrain.png",
+      "x": 1441,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd2": {
+      "sheet": "world/terrain.png",
+      "x": 1552,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd3": {
+      "sheet": "world/terrain.png",
+      "x": 1663,
+      "y": 332,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd4": {
+      "sheet": "world/terrain.png",
+      "x": 1331,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd5": {
+      "sheet": "world/terrain.png",
+      "x": 1441,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd6": {
+      "sheet": "world/terrain.png",
+      "x": 1552,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd7": {
+      "sheet": "world/terrain.png",
+      "x": 1663,
+      "y": 222,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd8": {
+      "sheet": "world/terrain.png",
+      "x": 1331,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd9": {
+      "sheet": "world/terrain.png",
+      "x": 1441,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd10": {
+      "sheet": "world/terrain.png",
+      "x": 1552,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd11": {
+      "sheet": "world/terrain.png",
+      "x": 1663,
+      "y": 111,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd12": {
+      "sheet": "world/terrain.png",
+      "x": 1331,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd13": {
+      "sheet": "world/terrain.png",
+      "x": 1441,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd14": {
+      "sheet": "world/terrain.png",
+      "x": 1552,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_floor_TOP_hd15": {
+      "sheet": "world/terrain.png",
+      "x": 1663,
+      "y": 0,
+      "width": 110,
+      "height": 110,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_walltop_TOP": {
+      "sheet": "world/terrain.png",
+      "x": 1332,
+      "y": 446,
+      "width": 440,
+      "height": 438,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_wallfront_TOP": {
+      "sheet": "world/terrain.png",
+      "x": 1332,
+      "y": 446,
+      "width": 220,
+      "height": 218,
+      "drawWidth": 16,
+      "drawHeight": 16
+    },
+    "world_smith_0": {
+      "sheet": "world/smith.png",
+      "x": 0,
+      "y": 0,
+      "width": 512,
+      "height": 500,
+      "drawWidth": 32,
+      "drawHeight": 31.25
+    },
+    "world_smith_1": {
+      "sheet": "world/smith.png",
+      "x": 512,
+      "y": 0,
+      "width": 512,
+      "height": 500,
+      "drawWidth": 32,
+      "drawHeight": 31.25
+    },
+    "world_smith_2": {
+      "sheet": "world/smith.png",
+      "x": 1024,
+      "y": 0,
+      "width": 512,
+      "height": 500,
+      "drawWidth": 32,
+      "drawHeight": 31.25
+    },
+    "world_smith_3": {
+      "sheet": "world/smith.png",
+      "x": 0,
+      "y": 512,
+      "width": 512,
+      "height": 468,
+      "drawWidth": 32,
+      "drawHeight": 29.25
+    },
+    "world_smith_4": {
+      "sheet": "world/smith.png",
+      "x": 512,
+      "y": 512,
+      "width": 512,
+      "height": 468,
+      "drawWidth": 32,
+      "drawHeight": 29.25
+    },
+    "world_smith_5": {
+      "sheet": "world/smith.png",
+      "x": 1024,
+      "y": 512,
+      "width": 512,
+      "height": 468,
+      "drawWidth": 32,
+      "drawHeight": 29.25
+    },
+    "world_forge_stage": {
+      "sheet": "world/forge-stage.png",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 1024,
+      "drawWidth": 576,
+      "drawHeight": 380
+    },
+    "world_return_portal": {
+      "sheet": "world/portals/return-portal.png",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 1024,
+      "drawWidth": 168,
+      "drawHeight": 112.0,
+      "pixelMip": true
+    },
+    "world_abyss_sealed": {
+      "sheet": "world/portals/abyss-sealed.png",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 1024,
+      "drawWidth": 256,
+      "drawHeight": 170.66666666666666,
+      "pixelMip": true
+    },
+    "world_abyss_open": {
+      "sheet": "world/portals/abyss-open.png",
+      "x": 0,
+      "y": 0,
+      "width": 1536,
+      "height": 1024,
+      "drawWidth": 216,
+      "drawHeight": 144.0,
+      "pixelMip": true
+    }
+  }
+}

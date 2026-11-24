@@ -1,0 +1,17 @@
+// 공통 설정. 모듈별 설정은 core/build.gradle, lwjgl3/build.gradle 에 있다.
+subprojects {
+    apply plugin: 'java'
+
+    group = 'com.yongsa'
+    version = '0.1.0'
+
+    repositories {
+        mavenCentral()
+    }
+
+    // Java 17로 컴파일한다 (더 높은 JDK로 빌드해도 17에서 실행된다)
+    tasks.withType(JavaCompile).configureEach {
+        options.encoding = 'UTF-8'
+        options.release = 17
+    }
+}

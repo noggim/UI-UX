@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-27",
+  "mode": "built-in image_gen",
+  "baseCommit": "22cb16d",
+  "prompts": {
+    "sword_blackiron": "Use case: style-transfer. Asset: one separate transparent game weapon sprite.\nImage 1 is the HERO STYLE reference, not a character to include. Image 2 is the existing sword DESIGN reference, not its chunky pixel technique.\nRedraw ONLY that one sword: Blackiron sword. Broad straight charcoal forged-iron blade with a cool silver-blue bevel, dark steel crossguard, a small sapphire-blue inset, and brown wrapped grip. Ordinary non-glowing version.\nMatch image 1's finely hand-painted miniature fantasy sprite brushwork, thin dark-brown contour, warm upper-left highlights and cool lower-right shadows. Smooth detailed edges, readable large value shapes, no chunky square pixels, no photoreal 3D chrome.\nSquare transparent PNG. Center ONE complete sword, hilt at lower left, tip at upper right, shaft axis exactly 45 degrees. Entire weapon fits with generous transparent padding. Target 256 x 256 canvas, overall pommel-to-tip length about 154 pixels (55% of a 280px hero). Do not add a hero, hand, backdrop, ground shadow, frame, labels, lettering, sparkles or scattered fragments. Grip clearly exposed for an attachment anchor. True alpha background.",
+    "sword_bloodmoon": "Use case: style-transfer. Asset: one separate transparent game weapon sprite.\nImage 1 is the HERO STYLE reference, not a character to include. Image 2 is the existing sword DESIGN reference, not its chunky pixel technique.\nRedraw ONLY that one sword: Bloodmoon sword. A single curved deep-crimson crescent-like blade, pale red cutting edge, restrained old-gold crescent guard with red jewel, and brown leather grip. Ordinary version, no aura.\nMatch image 1's finely hand-painted miniature fantasy sprite brushwork, thin dark-brown contour, warm upper-left highlights and cool lower-right shadows. Smooth detailed edges, readable large value shapes, no chunky square pixels, no photoreal 3D chrome.\nSquare transparent PNG. Center ONE complete sword, hilt at lower left, tip at upper right, shaft axis exactly 45 degrees. Entire weapon fits with generous transparent padding. Target 256 x 256 canvas, overall pommel-to-tip length about 154 pixels (55% of a 280px hero). Do not add a hero, hand, backdrop, ground shadow, frame, labels, lettering, sparkles or scattered fragments. Grip clearly exposed for an attachment anchor. True alpha background.",
+    "sword_skyfall": "Use case: style-transfer. Asset: one separate transparent game weapon sprite.\nImage 1 is the HERO STYLE reference, not a character to include. Image 2 is the existing sword DESIGN reference, not its chunky pixel technique.\nRedraw ONLY that one sword: Skyfall sword. Slender long pale-sky-blue blade, simple gold lightning-shaped inlay, small antique-gold straight guard and blue jewel, dark navy wrapped grip. Ordinary version, no aura.\nMatch image 1's finely hand-painted miniature fantasy sprite brushwork, thin dark-brown contour, warm upper-left highlights and cool lower-right shadows. Smooth detailed edges, readable large value shapes, no chunky square pixels, no photoreal 3D chrome.\nSquare transparent PNG. Center ONE complete sword, hilt at lower left, tip at upper right, shaft axis exactly 45 degrees. Entire weapon fits with generous transparent padding. Target 256 x 256 canvas, overall pommel-to-tip length about 154 pixels (55% of a 280px hero). Do not add a hero, hand, backdrop, ground shadow, frame, labels, lettering, sparkles or scattered fragments. Grip clearly exposed for an attachment anchor. True alpha background.",
+    "sword_holy": "Use case: style-transfer. Asset: one separate transparent game weapon sprite.\nImage 1 is the HERO STYLE reference, not a character to include. Image 2 is the existing sword DESIGN reference, not its chunky pixel technique.\nRedraw ONLY that one sword: Sealed holy sword. Straight ivory-white blade with TWO dark brown sealing bands crossing the blade, restrained antique-gold crossguard and pommel, brown wrapped grip. Ordinary sealed version, no aura.\nMatch image 1's finely hand-painted miniature fantasy sprite brushwork, thin dark-brown contour, warm upper-left highlights and cool lower-right shadows. Smooth detailed edges, readable large value shapes, no chunky square pixels, no photoreal 3D chrome.\nSquare transparent PNG. Center ONE complete sword, hilt at lower left, tip at upper right, shaft axis exactly 45 degrees. Entire weapon fits with generous transparent padding. Target 256 x 256 canvas, overall pommel-to-tip length about 154 pixels (55% of a 280px hero). Do not add a hero, hand, backdrop, ground shadow, frame, labels, lettering, sparkles or scattered fragments. Grip clearly exposed for an attachment anchor. True alpha background.",
+    "sword_blackiron_awakened": "Use case: precise-object-edit. Create ONE transparent game weapon sprite, the awakened variant of image 1. Image 1 is the edit target, image 2 is the older awakened design reference (ignore its chunky pixel rendering), image 3 is the hero brushwork and lighting reference. Add a narrow cyan luminous rune line in the dark iron blade and brighter ice-blue edge. Keep the broad iron silhouette and steel guard. Preserve the normal sword's exact 45 degree lower-left hilt to upper-right tip orientation, proportions and attachment grip location. Match the finely painted hero, warm upper-left light, cool lower-right shade, thin dark-brown contour, smooth miniature brushwork. Keep the light confined to the weapon markings, NO large halo or loose sparks. One sword only, no hero or hand, no text, no shadow, square true-alpha transparent canvas with generous margins. Requested canvas 256x256; weapon physical pommel-to-tip length about154px.",
+    "sword_bloodmoon_awakened": "Use case: precise-object-edit. Create ONE transparent game weapon sprite, the awakened variant of image 1. Image 1 is the edit target, image 2 is the older awakened design reference (ignore its chunky pixel rendering), image 3 is the hero brushwork and lighting reference. Add a fine luminous ruby rune through the curved crimson blade and a restrained crescent-shaped thorn at the blade base. Keep its brown leather grip and old-gold crescent guard. Preserve the normal sword's exact 45 degree lower-left hilt to upper-right tip orientation, proportions and attachment grip location. Match the finely painted hero, warm upper-left light, cool lower-right shade, thin dark-brown contour, smooth miniature brushwork. Keep the light confined to the weapon markings, NO large halo or loose sparks. One sword only, no hero or hand, no text, no shadow, square true-alpha transparent canvas with generous margins. Requested canvas 256x256; weapon physical pommel-to-tip length about154px.",
+    "sword_skyfall_awakened": "Use case: precise-object-edit. Create ONE transparent game weapon sprite, the awakened variant of image 1. Image 1 is the edit target, image 2 is the older awakened design reference (ignore its chunky pixel rendering), image 3 is the hero brushwork and lighting reference. Add a luminous white-cyan lightning rune, subtle violet-blue edge facets and small gold lightning motifs at the guard. Keep its slender blade. Preserve the normal sword's exact 45 degree lower-left hilt to upper-right tip orientation, proportions and attachment grip location. Match the finely painted hero, warm upper-left light, cool lower-right shade, thin dark-brown contour, smooth miniature brushwork. Keep the light confined to the weapon markings, NO large halo or loose sparks. One sword only, no hero or hand, no text, no shadow, square true-alpha transparent canvas with generous margins. Requested canvas 256x256; weapon physical pommel-to-tip length about154px.",
+    "sword_holy_awakened": "Use case: precise-object-edit. Create ONE transparent game weapon sprite, the awakened variant of image 1. Image 1 is the edit target, image 2 is the older awakened design reference (ignore its chunky pixel rendering), image 3 is the hero brushwork and lighting reference. Remove the TWO brown sealing bands. Reveal a brilliant ivory blade with a slender gold luminous central rune and restrained wing-shaped gold guard. Keep the brown grip. Preserve the normal sword's exact 45 degree lower-left hilt to upper-right tip orientation, proportions and attachment grip location. Match the finely painted hero, warm upper-left light, cool lower-right shade, thin dark-brown contour, smooth miniature brushwork. Keep the light confined to the weapon markings, NO large halo or loose sparks. One sword only, no hero or hand, no text, no shadow, square true-alpha transparent canvas with generous margins. Requested canvas 256x256; weapon physical pommel-to-tip length about154px.",
+    "walk": "Use case: identity-preserve. Edit the attached transparent HERO WALK sprite sheet. Keep exactly this character identity, clothing, small head, slim 3.5-4-head-tall body, painterly detail, warm upper-left light and cool shadows, 40-degree overhead camera. Silver-gray hair, crimson scarf, navy tunic with cream cuffs and hem, brown leather gloves and boots. No swords.\nMake a coherent 6-frame WALK loop in each row. EXACTLY 18 separate full-body figures, 3 rows x 6 columns, evenly spaced with completely transparent gutters. Row1 faces directly toward the bottom of the screen, row2 directly toward the top (back view), row3 faces right. All three rows must have equal standing body height and equal head size.\nCRITICAL: Fix the very weak leg alternation. Col1 shows right foot clearly stepping FORWARD and left foot clearly behind. Col2 transitions with right foot planted and left foot passing. Col3 is upright neutral feet-nearby STANDING (this is also game's idle frame). Col4 has the OPPOSITE contact: LEFT foot clearly FORWARD and right foot clearly behind. Col5 transitions with left planted and right passing. Col6 returns through a near-neutral passing posture to col1. Front/back walking needs clear knee bends and distinct boots with a visible 25-35px front-back separation at 280px character height; do not duplicate same foot forward in all columns. Arms swing opposite the legs. Subtle 2-4px torso rise, no crouch/running lean. Keep the torso upright.\nThe anatomical RIGHT hand in every pose is a closed brown-gloved gripping FIST, a readable small circular fist center, no weapon. Left hand naturally relaxed/gloved. Scarf moves minimally, no changing costume, no huge head, no outlines heavier than the reference.\nPreserve requested original canvas 1672x941 if possible; no cropped limbs, no overlapping figures, no text or numbers, no ground shadows, no background. True alpha transparency.",
+    "walk-diag": "Use case: identity-preserve. Edit image1 (diagonal walk sprites), using image2 (cardinal hero walk) as the exact identity, SIZE and posture reference.\nFix the diagonal character being too big and crouched. Draw the SAME slim 3.5-4-head-tall hero standing upright, head no larger than image2, long torso/legs, same overhead40degree camera, silver-gray hair, red scarf, navy/cream tunic, brown leather gloves/boots, same handpainted brush texture warm-upper-left/cool-lower-right light. Do NOT lean forward like running. Do NOT bulk up shoulders or enlarge the hair.\nEXACTLY12 separate complete sprites,2rows x6columns, consistent size, transparent gutters. Row1 walking diagonally toward lower RIGHT (southeast), row2 walking diagonally toward upper RIGHT (northeast/back three-quarter). Six-frame loop: col1 RIGHT foot forward, col2 passing, col3 UPRIGHT neutral standing idle, col4 LEFT foot forward (clearly opposite!), col5 opposite passing, col6 recovering. Clear boot separation and knee motion, arms swing opposite legs, subtle vertical gait. Anatomical RIGHT hand is a CLOSED GLOVED FIST with visible center for attaching a separate sword. Do not draw any weapon.\nTarget2048x768 canvas. All poses same head/body proportions and apparent height as cardinal hero, not enlarged diagonal heads. Keep generous transparent margins and no overlaps/cutoffs. Real alpha transparency throughout background. NO colored fog/gradient, backdrop, ground shadow, checker pattern, text, labels or extra characters.",
+    "walk-stride-refinement": "Use case: identity-preserve. Production RPG walk-cycle sprites. The input is ONLY the character identity/painting reference, not an animation pose template. Build a NEW complete gait sheet.\nSame silver-gray-haired slim young hero, crimson scarf, navy tunic with cream cuffs and hem, brown gloves and boots, small head, 3.5–4 heads tall, warm upper-left light/cool shadow, fine hand-painted edges. 40-degree overhead camera, upright torso. No sword, right hand clenched into a clear glove fist in EVERY pose.\nEXACTLY 18 figures in 3 rows x 6 columns. Row1 faces SOUTH toward viewer; row2 NORTH fully away; row3 EAST side view.\nThe columns MUST be a genuine alternating walking sequence, not repeated static steps:\n1) LONG CONTACT A: anatomical RIGHT leg well forward, LEFT leg well back; LEFT arm forward, RIGHT arm back.\n2) PASSING A: weight on right leg, bent left knee passes right leg; right fist moving forward.\n3) NEUTRAL: upright relaxed STANDING feet side-by-side, both arms near sides. This frame is used for idle.\n4) LONG CONTACT B: anatomical LEFT leg well forward, RIGHT leg well back; RIGHT fist forward, LEFT arm back. THIS MUST BE VISIBLY OPPOSITE TO COLUMN1.\n5) PASSING B: weight on left leg, bent right knee passing; right fist moving back.\n6) NEAR-NEUTRAL RETURN with slightly raised heel, so it loops to1.\nFor FRONT and BACK views separate forward/back boots by at least a clearly visible boot LENGTH vertically, widen the stride, bend knees and articulate the hips. Both boots must remain visible, no static parallel legs. At approximately280px body height use at least35px depth difference between boot tips in contact frames1and4. In side view the leg visible on the near side must switch from forward in1 to BACK in4.\nKeep head size, anatomical proportions and costume exactly consistent across18 figures. Subtle2-4px gait rise, not exaggerated running or squatting. Equal scale in every row. True transparent background and broad transparent gutters; no shadows, ground, grid, captions, letters or numbers. Wide sheet 1800x1000 preferred, fit full bodies with margin.",
+    "walk-diagonal-refinement": "Use case: identity-preserve. A new transparent diagonal WALK animation sheet for the exact hero in the reference. Preserve the reference's small head and slim long-body 3.5–4 head-height proportion, face, hair, navy/cream tunic, crossed brown straps, brown gloves/boots and crimson scarf. Do not copy the frontal direction: draw an authentic three-quarter diagonal view from the same40degree overhead camera.\nONLY12 sprites,2rows x6columns. Row1 faces lower-right/SOUTHEAST, row2 faces upper-right/NORTHEAST (show back and right side). In both rows keep the back UPRIGHT, shoulders over hips, long relaxed legs, no squat or sprinting lean. Head-to-body ratio and standing height must equal the reference: head including hair at most29% of full body height.\nColumns1-6: right foot contact / left knee passing / UPRIGHT NEUTRAL STANDING IDLE / left foot contact (opposite to1) / right knee passing / neutral recovery. Arms swing opposite legs. Anatomical right hand always CLOSED GLOVED FIST with clear center; no swords or weapons. Show a distinct alternate leading boot in col4.\nFinely painted fantasy sprite, thin dark-brown contours, warm light from upper left, cool blue-gray shadows, muted silver hair and deep navy clothing. Not chunky pixel art, not exaggerated chibi.\nEvery character same scale and same small head, full-body without cutoffs. Wide2048x768 composition, two equal row bands and six equal column bands, generous transparent separation. True alpha transparency, no ground shadow, NO colored fog/gradient, no background, labels, borders or text."
+  },
+  "selected": [
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_blackiron.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "bcd63d47c12dda2024b92e2929382311165444c8d97bd8008e5db990ef21fc04",
+      "promptId": "sword_blackiron"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_blackiron_awakened.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "db831a4ef936c03fcf83fbfc8a4f6a49feb208e8733e065cf6bb8da60176442f",
+      "promptId": "sword_blackiron_awakened"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_bloodmoon.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "eb6e22e7ee6ccbd77cf5d5414c598248f471598f73dab186ea39e295d82c94fa",
+      "promptId": "sword_bloodmoon"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_bloodmoon_awakened.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "58fcec7d7222b68f0818acf428817053172f39bc9405dafac08080170dd21c40",
+      "promptId": "sword_bloodmoon_awakened"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_holy.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "6edb54a268d44f0f1967b293d4e4d0bf60aa0e4fd1f7f7d2ce276950700a20ad",
+      "promptId": "sword_holy"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_holy_awakened.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "79825fe64b1157e7e8fcd69a7632e05f1328acfb583e5db02a270bc7c6b77869",
+      "promptId": "sword_holy_awakened"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_skyfall.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "5347378a178554d9345493f056ef8a0223fd37775282022905d3bd33d5f93084",
+      "promptId": "sword_skyfall"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/swords/sword_skyfall_awakened.png",
+      "nativeSize": [
+        1254,
+        1254
+      ],
+      "nativeSha256": "52879f29b56743dd2f71af0a96044ddffb826a3a40e3783bf33602a2048e012f",
+      "promptId": "sword_skyfall_awakened"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/walk-diag.png",
+      "nativeSize": [
+        2048,
+        768
+      ],
+      "nativeSha256": "97f13e633c42032b6a3cf64bc101ec662886435a39608de8d9a4dafc144aafdb",
+      "promptId": "walk-diagonal-refinement"
+    },
+    {
+      "asset": "sprites/hero-motion/harmony/walk.png",
+      "nativeSize": [
+        1681,
+        936
+      ],
+      "nativeSha256": "0ab3b6bd47cb10a23216c218c2a9f7fd01e0f91ce09082850d8fd436e6e5ab65",
+      "promptId": "walk-stride-refinement"
+    }
+  ],
+  "normalization": "Sword PNGs only: uniform Lanczos scaling onto 256x256 alpha canvas, physical length154px. Walking source bytes copied unchanged; frame geometry and uniform runtime scale recorded in hero-motion.json.",
+  "supersededPrompts": [
+    "walk",
+    "walk-diag"
+  ],
+  "scope": "S1-S3 assets/coordinates; C1-C4 rendering owned by Claude per work order"
+}

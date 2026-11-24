@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-16",
+  "repository": "choicomet/yongsa_game",
+  "destination": "haeseong/game",
+  "consolidatedCommit": "f8d1a112aea0c10bb8aa7047db2793416b5b7e9b",
+  "originalStoryCheckpoint": "9aafafa204b1fe51e43972fcb0f7fa11cab59cba",
+  "duplicatePatchCommit": "6687c6c",
+  "checkpointPreservation": "Original checkpoint is patch-equivalent to 6687c6c; recorded as a merge parent without changing the tested tree.",
+  "tests": {
+    "tests": 96,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "branches": [
+    {
+      "branch": "claude/project-thread-q0jrky",
+      "sha": "46f0898275b3dbe800d127029894a71e4ce88a63",
+      "includedInHaeseong": true,
+      "includedInMain": true,
+      "action": "keep_user_requested"
+    },
+    {
+      "branch": "claude/team-integration-m9u9aa",
+      "sha": "95ce69af8531ff98e0633d95267661cc322e7cf8",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "keep_user_requested"
+    },
+    {
+      "branch": "codex/art-batch-a",
+      "sha": "117e042fbbb3f895fff18de8576a4d118592bd02",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/boss-grid-art",
+      "sha": "464d1edaedb04625ac3c3674e76511fcc97dc2c1",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/claude-art-followup",
+      "sha": "cb4afcc4f5e5ce50cf2aed13c57e39106716be47",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/hero-map-harmony",
+      "sha": "84353fd72f089ced7c3051bf2f09bf59407a5d3d",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/map-continuity",
+      "sha": "5372e645a41d9efac36125db8469e76abbf2fe9a",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/mob-species-scale",
+      "sha": "f58897a6f837864cff7c82d68fd597a63b466eab",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/natural-central-camp",
+      "sha": "2e534a8e66ef8410818b49ed1d1f0170c81bbed5",
+      "includedInHaeseong": true,
+      "includedInMain": true,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/natural-dungeon-kit",
+      "sha": "e7b0bb3debc29384a6213fa93d44744550d3a34c",
+      "includedInHaeseong": true,
+      "includedInMain": true,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/painted-map-links",
+      "sha": "5372e645a41d9efac36125db8469e76abbf2fe9a",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/painted-passages",
+      "sha": "01e5638947304be11d33443bf26e8e5e40d2290c",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/pixel-art-review",
+      "sha": "e39d147d1f83ce2488e0dd0159b4b6ef8dc3f967",
+      "includedInHaeseong": true,
+      "includedInMain": true,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/story-sprites",
+      "sha": "9aafafa204b1fe51e43972fcb0f7fa11cab59cba",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "codex/story-sprites-ready",
+      "sha": "7be4428f2227fc04bc7a9594dbd71a79854cb39c",
+      "includedInHaeseong": true,
+      "includedInMain": false,
+      "action": "deleted_after_verified_push"
+    },
+    {
+      "branch": "jiyong_prototype",
+      "sha": "21f40d9133668135910a83cc8ec02c92db869927",
+      "includedInHaeseong": false,
+      "includedInMain": false,
+      "action": "keep"
+    },
+    {
+      "branch": "main",
+      "sha": "ab712f22009db2e737e717bfface17e9ae07341d",
+      "includedInHaeseong": true,
+      "includedInMain": true,
+      "action": "keep"
+    },
+    {
+      "branch": "middle-term",
+      "sha": "ab712f22009db2e737e717bfface17e9ae07341d",
+      "includedInHaeseong": true,
+      "includedInMain": true,
+      "action": "keep"
+    }
+  ],
+  "cleanupStatus": "Complete: 13 remote Codex branches deleted; 2 Claude branches retained by explicit user request on 2026-10-16; main, middle-term, jiyong_prototype unchanged. Future Haeseong requests accumulate on haeseong/game.",
+  "consolidatedPullRequest": "https://github.com/choicomet/yongsa_game/pull/16"
+}

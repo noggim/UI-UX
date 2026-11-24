@@ -1,0 +1,713 @@
+{
+  "date": "2026-10-28",
+  "tool": "built-in image_gen",
+  "prompts": {
+    "south": "Use case: identity-preserve. Game production WALK animation, exactly FOUR separate full-body sprites in ONE horizontal row on TRUE TRANSPARENT background. Use attached SOUTH-facing idle hero as exact character/painting/proportion reference. Keep SAME small silver-gray head, slim long torso, crimson scarf, crossed brown straps, navy tunic with cream hem/cuffs, brown gloves/boots, overhead 40-degree camera, warm upper-left painted light. Every figure faces straight SOUTH toward bottom/viewer, no turning, no weapon. Match fine handpainted edges, not chunky pixels, no enlarged head.\nFour columns are chronological gait phases, ALL WALKING, no standing frame:\n1 RIGHT-foot CONTACT: anatomical RIGHT boot (viewer LEFT) planted down/forward, anatomical LEFT boot (viewer RIGHT) back/up with heel rising. LEFT arm forward, RIGHT gripping fist slightly back. Both legs extended in a comfortable stride, NOT a raised-knee running pose.\n2 LEFT-leg PASSING: planted RIGHT leg supports weight; LEFT knee passes right leg, left boot lifted slightly and tucked close. Arms pass beside hips, right fist clear. Torso rises subtly.\n3 LEFT-foot CONTACT: EXACT OPPOSITE of column1: viewer RIGHT boot now down/forward planted; viewer LEFT boot back/up. RIGHT gripping fist forward, LEFT arm back. Do not repeat the same leg forward!\n4 RIGHT-leg PASSING: planted LEFT leg supports weight; RIGHT knee passes, viewer LEFT boot lifted slightly close beside supporting leg. This is the opposite leg to column2. Arms beside hips.\nBoth front/back boots remain visible. In contacts separate their sole heights by a noticeable small difference, about 12px at 310px hero height; passing lifts only the non-support foot. Same full-body height and head size across columns, supporting soles aligned on common baseline; only 2-3px vertical body rise in passing poses. Upright calm walk not crouched, leaping, sprinting or high-knee march. Both hands closed gloved fists, RIGHT fist easy to identify for separate sword attachment. Scarf remains on same anatomical side, tiny delayed sway only. FOUR characters only, clear transparent gutters and margins, no shadows/ground/text/labels/grid. Landscape canvas approximately1536x512. Preserve reference identity and clothes precisely; create the missing alternate gait poses rather than copying the reference idle.",
+    "southEdit": "Precise-object-edit of this four-column transparent RPG sprite sheet. Keep the character identity, costume, head size, camera, painting, scale, positions, transparent background and columns TWO and THREE absolutely unchanged. Fix ONLY columns ONE and FOUR, counting from left.\nCOLUMN ONE: swap which leg is forward. The boot on the LEFT SIDE OF THE IMAGE must be the lowest planted boot; the boot on the RIGHT SIDE OF THE IMAGE must be farther up/back. Lower the LEFT-side boot by about85px and raise the RIGHT-side boot by85px, redraw leg bends naturally. LEFT-side gloved hand must be back near the waist, RIGHT-side gloved hand swings forward/lower. Column1 must now be opposite to column3. Do not mirror the entire character: keep hair/scarf/straps same.\nCOLUMN FOUR: the planted supporting boot must be on the RIGHT SIDE OF THE IMAGE, reaching the same baseline. Lift the LEFT-side knee and tuck LEFT-side boot close upward beside the right calf. BOTH hands hang near hips passing the torso. The exact opposite supporting leg of column2. No standing idle pose.\nThis must result in planted boot side LEFT, LEFT, RIGHT, RIGHT across columns1,2,3,4 respectively. Columns1/3 are contact, columns2/4 are passing. ALL characters face viewer. No weapons, shadows, text or ground. True transparency. Preserve clean full silhouettes.",
+    "southContact": "Precise edit. Keep this exact four-column transparent hero sheet and all heads/torso/arms/identity/style unchanged. Keep columns2 and4 entirely unchanged (passing poses). ONLY redraw LEGS BELOW TUNIC in columns1 and3 as calm WALK CONTACT poses with BOTH KNEES EXTENDED, neither knee raised. Both boots down near the baseline, modest spread. In column1 the viewer-left boot is slightly forward/lower, viewer-right boot trailing just15px higher; both soles nearly level. In column3 the viewer-right boot is slightly forward/lower, viewer-left boot trailing15px higher. This is a short relaxed contact, NOT the current high lifted back knee. Both boots almost on the floor, feet moderately apart; plant the forward heel and lift trailing heel only a little. Do NOT crouch, lengthen torso, move heads or change overall650px body height. Full transparent background. Sequence must visually read extended legs / narrow bent passing leg / opposite extended legs / opposite narrow bent passing leg. No sword, text, ground, shadows.",
+    "north": "Use case identity-preserve. Four-frame RPG WALK animation viewed from BEHIND, facing NORTH/up. Input1 is exact back-view character identity reference. Input2 is the frontal same-character walking rhythm/style reference, do not draw front view. Exactly FOUR full-body back-view figures in ONE horizontal row, true transparent background. Same silver-gray hair, small head/slender proportions, crimson scarf hanging on character's LEFT side, navy cream-trim tunic, brown X back straps, gloves and boots. Overhead40degree camera and fine hand-painted warm upper-left light, cool shadows.\nColumns sequential, distinguish CONTACT from PASSING:\n1 RIGHT-leg forward/contact (screen RIGHT leg steps UP/AWAY, right boot higher/smaller; screen LEFT leg trails DOWN/TOWARD viewer, left heel lifted a little, sole visible). Both knees almost straight, modest stride. LEFT arm forward/up partly hidden; RIGHT fist back/down clearly visible.\n2 right leg supports, LEFT leg passing: LEFT knee bends and left heel lifts while crossing close beside supporting right leg. Arms near hips, slightly higher body.\n3 OPPOSITE CONTACT: LEFT leg forward/up/away, RIGHT leg trailing down/toward viewer, right heel/sole visible. RIGHT arm forward/up partly hidden, LEFT arm back/down. The boot visibly closest to viewer MUST switch from LEFT in column1 to RIGHT in column3.\n4 left leg supports, RIGHT leg passing: RIGHT knee bent, right heel lifted passing beside left leg. Arms pass hips. Opposite knee of column2.\nNo idle feet-parallel poses. No same-foot hopping. Quiet walking not running, no crouched torso. Every head same size and same baseline/height; only2-3px rise at passing scaled to310px figure. Both gloved hands closed, separate weapon attached later so no sword. Keep scarf consistent on same LEFT side throughout, not mirrored. Full transparent gutters, no shadows/ground/fog/text/grid. Approximately1536x512 landscape.",
+    "northEdit": "Precise edit of this 4-column transparent BACK-VIEW walking sheet. Preserve every head, costume, brushwork, scale and camera. Preserve columns2 and4 exactly. Column3 legs and arms are correct, but ADD the missing red scarf tail over the screen-right shoulder/back, same placement as other three columns.\nCOLUMN1 ONLY: make its stride and arm swing the OPPOSITE of column3. Screen-LEFT boot must be trailing toward viewer, lowered with the dark boot sole visible; screen-RIGHT boot must be forward away from viewer, higher and planted with upper shoe visible. Both knees fairly extended in a relaxed WALK contact, not a high knee. Screen-RIGHT glove swings BACK/down toward viewer, visible around hip level. Screen-LEFT glove swings forward/up away and becomes partly hidden. Do NOT mirror the whole image; hair, scarf (screen-right), crossed straps unchanged. Keep column1 and3 body height equal.\nThus contact columns1/3 have clearly opposite closest boots; column1 LEFT boot closest, column3 RIGHT boot closest. No sword, ground, shadows, labels. True transparent alpha, generous empty gutters.",
+    "east": "Use case identity-preserve. A coherent FOUR-FRAME walk cycle of the exact hero in input1, all viewed facing EAST/screen RIGHT. Match slim small-head body, silver hair, red scarf flowing modestly behind to left, navy cream-trim tunic, brown straps gloves boots, same40degree overhead camera and finely painted warmupper-left light. True alpha background. Exactly4 full-body sprites in one horizontal row. NOT running, upright torso, samehead/bodyheight allframes.\nNearest leg is anatomical RIGHT (visible near side). Nearest arm also RIGHT, closed fist throughout for separate sword.\nColumn1 CONTACT A: NEAR/right leg swings FORWARD toward screen RIGHT, heel planted; FAR/left leg extends BACK toward LEFT, heel raised. NEAR/right arm swings BACK toward screen LEFT; farleftarm forward.\nColumn2 PASSING A: NEAR/right leg now VERTICAL and supporting weight below hips. FAR/left knee bends and swings through, boot lifted beside supporting shin. Nearright fist passes hip.\nColumn3 CONTACT B: NEAR/right leg extends BACK toward screen LEFT; FAR/left leg extends FORWARD toward screen RIGHT. NEAR/right arm swings FORWARD toward screen RIGHT, fist clear in front of belt. EXACT opposite near-leg and near-arm diagonal to column1, do not repeat same stride silhouette. Both legs visible, near leg overlaps far leg correctly.\nColumn4 PASSING B: FAR/left leg is VERTICAL planted below hip. NEAR/right leg bends knee forward toward RIGHT, boot lifted beside supporting shin. Nearright fist passing hip.\nContacts have wider foot separation, passing have narrow foot separation. Both contact soles nearly samebaseline, no huge raisedknee. Passingbody rises just2-3px at270px heroheight. Head/shoulders overpelvis, no sprintlean. Identical costume/scarflength and paintstyle across all4; scarfneverflips sides. Keep hands clenched empty, NO sword. Generoustransparent gutters andmargin, NO shadow ground fog labels grid. Approx1536x512.",
+    "eastEdit": "Precise animation edit of attached 4-column transparent EAST-facing walk sheet. Keep columns1and2 unchanged. Keep all heads, torsos, arms, scarves, paint style, body height unchanged. Fix ONLY lower body of columns3 and4 so the NEAR/right leg alternates.\nColumn3 contact: the near/right thigh emerges from the visible hip and crosses IN FRONT OF the other leg as it extends BACK/DOWN-LEFT. Near boot is on LEFT (trailing). Far/left leg extends FORWARD/DOWN-RIGHT behind it. Strengthen correct near-leg-over-far-leg overlap at the crotch, keep near glove already forward. Same stride width as column1.\nColumn4 passing: near/right thigh is CLEARLY lifted FORWARD toward RIGHT with a visible bent knee in front of the tunic, shin folds down/back, boot off ground. The NEAR thigh/knee and boot overlap IN FRONT of the farther supporting leg. Far/left leg is straight vertical from pelvis to planted boot at baseline, visible BEHIND raised near leg. It must look different from column2 which has the near leg straight. Do not leave the near leg straight again! Calm walking lift, not running. Two legs total and clean anatomy. All figures face RIGHT unchanged. No weapons/text/shadows, true transparent alpha.",
+    "southeast": "Use case identity-preserve. FOUR-frame WALK cycle facing SOUTHEAST, diagonal toward bottom RIGHT, for exact hero from input1. Match this upright slender small-head hero, silver hair, crimson scarf trailing consistently to screenleft/back, navy cream-trim tunic, crossed brown leather straps, brown gloves/boots. Keep same40degree overhead camera, face and fine handpainted warmupperleftlight. TRUE transparent background, NO brown fog from reference background. FOUR complete sprites in ONE row, generous gutters. Every figure same size, head/body height as reference, no crouch or runninglean.\nFrames lefttoright:\n1 RIGHT-foot CONTACT: NEAR/right leg (screenleft hip) extends diagonally FORWARD toward lowerRIGHT; farleftleg extends backward toward upperLEFT. Rightfist swings BACK toward left; leftarm forward. Knees nearly straight, both boots low.\n2 PASSING: RIGHT leg planted underhip, LEFT knee bent passing beside it, feet close together, arms pass hips.\n3 LEFT-foot CONTACT: FAR/leftleg extends forward toward lowerRIGHT; NEAR/rightleg extends backward toward upperLEFT crossing in FRONT of farleg at hips. RIGHT fist swings FORWARD toward lowerRIGHT. Opposite leg and arm from frame1. Clearly switch leading boot, don't repeat same wide stance.\n4 opposite PASSING: LEFT leg planted underhip, RIGHT knee bent passing in front, nearboot lifted; arms pasships.\nContacts wide footspacing, passing narrowfootspacing. Moderate comfortable walkingstride, not highkneemarching. Allhands closedglovedfists for separate sword attachment; NO swords. Preserve same scarf side, tiny lag only. Supportfoot baselines and bodyheights consistent, passingbody rise only2-3px at360px characterheight. No idlepose in these4. No floor,shadow,text,label,frame. Approx1536x512.",
+    "southeastEdit": "Precise-object-edit. Attached4-column transparent southeast walksheet. Columns1and2 unchanged. Change ONLY column3 and4 limbs, preserve heads torso costume scarf camera scale and painting.\nIn column3 the LEFT-HAND-SIDE shoulder is the NEAR/right shoulder. Its RIGHT GLOVED FIST must swing FORWARD toward the RIGHT AND DOWN to directly in front of the belt, not remain behind on left. The other glove on rightside moves back/up and becomes partly hidden. Near RIGHT LEG emerging from LEFT side of tunic must extend BACK toward bottomLEFT, with near boot on LEFT of body, toes pointing right; far LEFT leg extends forward bottomRIGHT, boot on right, partially occluded thigh. Two extended legs, clear opposing stride! This is anatomically opposite column1, not a copy. Right fist and left foot both forward.\nColumn4: NEAR RIGHT KNEE emerging from LEFT hip bends forward RIGHT across the other leg, near boot lifted in FRONT of far shin. FAR LEFT LEG on rightside remains straight/planted, supporting boot LOWEST on RIGHT side of body. The current LEFT-side planted leg must instead be bent and lifted. Rightfist hangs passing besidehip. Clearly switch the supporting leg compared with column2.\nNo new objects, no sword, no background, no labels. True alpha. Preserve exact identity.",
+    "northeast": "Use case identity-preserve. FOUR-frame calm WALK cycle facing NORTHEAST/upper RIGHT, back three-quarter view of exact hero from attached reference. Same small silver head, slender upright body, red scarf flowing screenleft/back, navy cream-trim tunic, brown X-backstraps gloves boots, warmupperleft finehandpainted shading, same40degree overheadcamera. Do not draw referencebrown background: TRUE ALPHA TRANSPARENT.\nExactly4 complete figures in ONE row with largeemptygutters.\n1 rightfootcontact: RIGHT leg (screenRIGHT/near leg) steps FORWARD away toward upperRIGHT, farLEFT leg trails downLEFT toward viewer with heel slightly lifted. RIGHT arm swings back/down toward viewer; LEFT arm swings forward/away. Bothknees nearlystraight.\n2 passing: RIGHT leg supports belowhip, LEFT knee bent crossing past it, lifted heel behind. Feetclose, hands pasships.\n3 oppositecontact: RIGHT leg now trails DOWNLEFT toward viewer, bootsole visible; LEFT leg steps FORWARD upperRIGHT. RIGHT arm swings forward/away toward right and higher, LEFT arm swings back toward viewer. Clearly switch nearleg from forward to back compared with1. Bothknees nearlystraight, comfortablewide stride.\n4 oppositepassing: LEFT leg supportsbelowhip, RIGHT knee bent and lifted, nearboot passingbeside supporting farleg. Feetclose, armspasships.\nHeadheight, headsize, bodyheight and scarf length consistent, uprightno sprintlean. Supportfoot baseline stable, tiny2-3pxbodyrise only. Handsclosedfists with measurable rightfist for separateweapon. NO weapons, ground, shadow, labels, grid. No idlefeetparallelposes, no samelegrepetition. Approx1536x512.",
+    "northeastEdit": "Edit this transparent 4-frame BACK THREE-QUARTER NORTHEAST hero walksheet. Keep exactheads, torsos, clothes, redscarfs, viewpoint, painting. Keep columns3and4 unchanged. Change columns1and2 to opposite leg and arm movement.\nColumn1: NEAR RIGHT LEG emerging from screenRIGHT hip extends FORWARD to upperRIGHT. Its nearboot is on RIGHT, pointing away/up; FAR LEFT LEG emerges from screenLEFT hip and trails downLEFT towardviewer, with liftedheel. At crotch, nearRIGHT THIGH running downRIGHT overlaps in FRONT of farleftthigh running downLEFT. Current nearleg running downLEFT must no longer cross in front. NEAR RIGHT GLOVE on RIGHTside swings BACK/down close to rightrearhip, not raisedforward. FAR LEFTARM movesforward/away and is mostlyoccluded. Opposite limbdiagonal to column3!\nColumn2: NEAR RIGHTLEG is straight/supporting plantedfoot on RIGHTsideunderhip; FAR LEFTLEG bent with its raisedboot on LEFTside behind supportingleg. Rightglovehangs nearhip. In column4 the NEAR RIGHT LEG is bent/lifted in front with solevisible, so column2 must have the FARleglifted instead. Do not repeat it.\nNatural relaxedwalk, no changedheadsize, no addedweapon, no backgroundshadows,text,grid. True alpha and completebodies.",
+    "northeastFinal": "Precise edit of this transparent back-diagonal hero walk sheet. Change ONLY FIRST COLUMN figure's arms and legs; all other3 figures remain identical. In FIRST figure, the LOWEST BOOT with visible sole must be on the RIGHT SIDE of his body, below his RIGHT shoulder, NOT on left as currently. His LEFT-side boot must be raised higher and farther left, stepping away. Redraw crotch and knees so this is the opposite foot forward, with distinct two legs. Swap leg roles, not the character orientation. First figure's RIGHT-side fist must hang LOW and BACK beside right hip, clearly visible; LEFT-side arm forward away becomes hidden behind torso. Do not leave left fist hanging and right hand forward. Keep head, back, red scarf, clothes, body direction pointing UPPER RIGHT, same size, same paint, same transparent background. Do not mirror entire character. No sword.",
+    "northHeight": "Precise edit of this four-column BACK WALK sheet. Preserve ALL heads, torsos, arms, scarf, scale, camera and horizontal positions pixel-for-pixel where possible. Columns1and3 untouched. Only correct lower leg length in columns2and4. They currently appear shorter than1and3.\nKeep heads at their exact current height. Extend the straight SUPPORTING LEG down so its planted boot sole reaches the SAME horizontal baseline as the lowest soles in columns1and3 (near y700 on this724px high canvas). In column2 extend the screenLEFT straight supporting leg about55px; keep screenRIGHT bent passing knee and foot lifted. In column4 extend screenLEFT straight support downabout35px; keep screenRIGHT raised boot. Do not scale entire characters or change headsize. Draw the boot fully within canvas with at least15pxmargin. This is relaxed WALK, not squatting. Preserve every other feature and exact alpha transparency. No sword or text.",
+    "northPassing": "Edit ONLY the LEGS BELOW THE TUNIC in FOURTH/far-right figure of this transparent BACK-view hero sheet. Preserve columns1,2,3 entirely and preserve fourth head/torso/arms/scarf. In fourth figure swap leg roles: SCREEN-RIGHT LEG must be STRAIGHT DOWN to supporting boot at bottom baseline, SCREEN-LEFT LEG must BEND UP with LEFT boot lifted next to right shin and its sole partly visible. The previous fourth currently has leftleg straight and rightleg raised like column2; this must be the opposite. Make right supportingboot as low as column2 supportingboot, keep full bodyheight. No other changes, same camera, same painting, true alpha background.",
+    "northHand": "Precision edit of attached4-column back-facing walk sprites. Keep ALL head/body/leg poses, scarf placement, scale, transparent canvas and all other figures exactly unchanged. ONLY third figure is missing its anatomical RIGHT hand. Add a small CLOSED BROWN LEATHER GLOVED FIST just below the cream cuff on the SCREEN-RIGHT side of the third figure, partly in front of the right hip/scarf edge, centre about absolute x1450,y345 on2172x724 canvas. Hand is swung forward away from viewer, so only small knuckles visible outside silhouette. Correctly connect glove to that right forearm, no extra arm, no additional fingers, no weapon. Match existing brown glove style. Leave its left hanging glove untouched. No other changes. True alpha background.",
+    "northeastGround": "Precise edit. Only FIRST figure's feet/lowerlegs in this transparent four-frame northeast BACK walking sheet. Keep first head, upperbody, arms, scarf unchanged, and other3 figures unchanged. First figure currently shows BOTH boot soles toward viewer and looks airborne. Fix to a grounded contact: the SCREEN-RIGHT boot below the right shoulder is the FORWARD PLANTED foot. Draw it on the floor with toe pointing toward screenRIGHT/upperRIGHT, showing brown TOP and SIDE of boot, NO exposed black sole facing viewer. Extend this right leg downward naturally from right hip. The SCREEN-LEFT foot is TRAILING toward lowerLEFT/viewer with heel just raised and a little sole visible, attached to extended left leg rather than a high bent knee. Both knees mostlyextended, bothboots near common ground level, not jumping or kicking. Keep fullbodyheight, no stretching torso. Calm step away upperright. No background/ground/shadow/text; true transparency."
+  },
+  "selected": {
+    "south": "exec-9a0db1c6-37a2-49f7-8137-fa5208f410a8.png",
+    "north": "exec-d67705b1-79d1-498f-b501-f8a3391625ac.png",
+    "east": "exec-23c564fe-07b9-487a-8a4c-fad0e2e09286.png",
+    "southeast": "exec-e8d4e5c1-3c01-4cdb-83fc-5ffb86fd571e.png",
+    "northeast": "exec-ee2ead5e-5e8f-4516-9395-9d74b9d70c5a.png"
+  },
+  "note": "Generated pixels are packed without resizing or recoloring. Existing idle crops are copied byte-for-byte; display scale and anchors are measured in hero-motion.json.",
+  "measurements": {
+    "frames": [
+      {
+        "direction": "south",
+        "slot": 0,
+        "source": "walk",
+        "rect": [
+          161,
+          37,
+          317,
+          703
+        ],
+        "hand": [
+          216,
+          372
+        ],
+        "foot": [
+          316.85096153846155,
+          736.0
+        ],
+        "pixelsPerWorld": 12.017241379310345
+      },
+      {
+        "direction": "south",
+        "slot": 1,
+        "source": "walk",
+        "rect": [
+          794,
+          39,
+          332,
+          701
+        ],
+        "hand": [
+          839,
+          429
+        ],
+        "foot": [
+          960.8030703202377,
+          734.0
+        ],
+        "pixelsPerWorld": 11.84549356223176
+      },
+      {
+        "direction": "south",
+        "slot": 2,
+        "source": "walk",
+        "rect": [
+          1528,
+          426,
+          144,
+          314
+        ],
+        "hand": [
+          1549.6,
+          611.3
+        ],
+        "foot": [
+          1601.0,
+          739.0
+        ],
+        "pixelsPerWorld": 5.379310344827586
+      },
+      {
+        "direction": "south",
+        "slot": 3,
+        "source": "walk",
+        "rect": [
+          2076,
+          37,
+          328,
+          703
+        ],
+        "hand": [
+          2124,
+          437
+        ],
+        "foot": [
+          2243.841346153846,
+          736.0
+        ],
+        "pixelsPerWorld": 11.982758620689655
+      },
+      {
+        "direction": "south",
+        "slot": 4,
+        "source": "walk",
+        "rect": [
+          2720,
+          38,
+          320,
+          702
+        ],
+        "hand": [
+          2765,
+          428
+        ],
+        "foot": [
+          2879.312644437108,
+          735.0
+        ],
+        "pixelsPerWorld": 11.879828326180258
+      },
+      {
+        "direction": "south",
+        "slot": 5,
+        "source": "walk",
+        "rect": [
+          3354,
+          39,
+          332,
+          701
+        ],
+        "hand": [
+          3399,
+          429
+        ],
+        "foot": [
+          3520.8030703202376,
+          734.0
+        ],
+        "pixelsPerWorld": 11.84549356223176
+      },
+      {
+        "direction": "north",
+        "slot": 0,
+        "source": "walk",
+        "rect": [
+          166,
+          804,
+          308,
+          704
+        ],
+        "hand": [
+          436,
+          1204
+        ],
+        "foot": [
+          305.85526315789474,
+          1503.0
+        ],
+        "pixelsPerWorld": 12.0
+      },
+      {
+        "direction": "north",
+        "slot": 1,
+        "source": "walk",
+        "rect": [
+          802,
+          818,
+          315,
+          690
+        ],
+        "hand": [
+          1082,
+          1188
+        ],
+        "foot": [
+          951.8896543934944,
+          1504.0
+        ],
+        "pixelsPerWorld": 11.639484978540773
+      },
+      {
+        "direction": "north",
+        "slot": 2,
+        "source": "walk",
+        "rect": [
+          1526,
+          1202,
+          148,
+          306
+        ],
+        "hand": [
+          1656.2,
+          1388.7
+        ],
+        "foot": [
+          1601.0,
+          1507.0
+        ],
+        "pixelsPerWorld": 5.241379310344827
+      },
+      {
+        "direction": "north",
+        "slot": 3,
+        "source": "walk",
+        "rect": [
+          2075,
+          805,
+          330,
+          703
+        ],
+        "hand": [
+          2375,
+          1135
+        ],
+        "foot": [
+          2245.860197368421,
+          1503.0
+        ],
+        "pixelsPerWorld": 11.948275862068966
+      },
+      {
+        "direction": "north",
+        "slot": 4,
+        "source": "walk",
+        "rect": [
+          2723,
+          816,
+          314,
+          692
+        ],
+        "hand": [
+          3003,
+          1186
+        ],
+        "foot": [
+          2875.8798283261804,
+          1503.0
+        ],
+        "pixelsPerWorld": 11.742489270386265
+      },
+      {
+        "direction": "north",
+        "slot": 5,
+        "source": "walk",
+        "rect": [
+          3362,
+          818,
+          315,
+          690
+        ],
+        "hand": [
+          3642,
+          1188
+        ],
+        "foot": [
+          3511.8896543934943,
+          1504.0
+        ],
+        "pixelsPerWorld": 11.639484978540773
+      },
+      {
+        "direction": "east",
+        "slot": 0,
+        "source": "walk-side",
+        "rect": [
+          90,
+          84,
+          460,
+          656
+        ],
+        "hand": [
+          200,
+          464
+        ],
+        "foot": [
+          270.6097080542832,
+          734.0
+        ],
+        "pixelsPerWorld": 11.10344827586207
+      },
+      {
+        "direction": "east",
+        "slot": 1,
+        "source": "walk-side",
+        "rect": [
+          789,
+          79,
+          342,
+          661
+        ],
+        "hand": [
+          939,
+          464
+        ],
+        "foot": [
+          940.547457348444,
+          733.0
+        ],
+        "pixelsPerWorld": 11.124463519313304
+      },
+      {
+        "direction": "east",
+        "slot": 2,
+        "source": "walk-side",
+        "rect": [
+          1548,
+          470,
+          104,
+          270
+        ],
+        "hand": [
+          1582.3,
+          640.1
+        ],
+        "foot": [
+          1589.0,
+          737
+        ],
+        "pixelsPerWorld": 4.557471
+      },
+      {
+        "direction": "east",
+        "slot": 3,
+        "source": "walk-side",
+        "rect": [
+          2005,
+          88,
+          469,
+          652
+        ],
+        "hand": [
+          2355,
+          438
+        ],
+        "foot": [
+          2193.762923699993,
+          734.0
+        ],
+        "pixelsPerWorld": 11.051724137931034
+      },
+      {
+        "direction": "east",
+        "slot": 4,
+        "source": "walk-side",
+        "rect": [
+          2702,
+          81,
+          355,
+          659
+        ],
+        "hand": [
+          2872,
+          466
+        ],
+        "foot": [
+          2857.047457348444,
+          733.0
+        ],
+        "pixelsPerWorld": 11.124463519313304
+      },
+      {
+        "direction": "east",
+        "slot": 5,
+        "source": "walk-side",
+        "rect": [
+          3349,
+          79,
+          342,
+          661
+        ],
+        "hand": [
+          3499,
+          464
+        ],
+        "foot": [
+          3500.547457348444,
+          733.0
+        ],
+        "pixelsPerWorld": 11.124463519313304
+      },
+      {
+        "direction": "southeast",
+        "slot": 0,
+        "source": "walk-diag",
+        "rect": [
+          79,
+          48,
+          481,
+          692
+        ],
+        "hand": [
+          179,
+          383
+        ],
+        "foot": [
+          302.5777777777778,
+          735.0
+        ],
+        "pixelsPerWorld": 11.758620689655173
+      },
+      {
+        "direction": "southeast",
+        "slot": 1,
+        "source": "walk-diag",
+        "rect": [
+          763,
+          52,
+          394,
+          688
+        ],
+        "hand": [
+          938,
+          437
+        ],
+        "foot": [
+          974.0120648545542,
+          736.0
+        ],
+        "pixelsPerWorld": 11.656652360515022
+      },
+      {
+        "direction": "southeast",
+        "slot": 2,
+        "source": "walk-diag",
+        "rect": [
+          1520,
+          378,
+          160,
+          362
+        ],
+        "hand": [
+          1548.8,
+          588.0
+        ],
+        "foot": [
+          1611.0,
+          739.0
+        ],
+        "pixelsPerWorld": 6.206896551724138
+      },
+      {
+        "direction": "southeast",
+        "slot": 3,
+        "source": "walk-diag",
+        "rect": [
+          1971,
+          51,
+          537,
+          689
+        ],
+        "hand": [
+          2216,
+          406
+        ],
+        "foot": [
+          2196.0666666666666,
+          736.0
+        ],
+        "pixelsPerWorld": 11.741379310344827
+      },
+      {
+        "direction": "southeast",
+        "slot": 4,
+        "source": "walk-diag",
+        "rect": [
+          2670,
+          52,
+          419,
+          688
+        ],
+        "hand": [
+          2820,
+          437
+        ],
+        "foot": [
+          2896.023128278493,
+          736.0
+        ],
+        "pixelsPerWorld": 11.67381974248927
+      },
+      {
+        "direction": "southeast",
+        "slot": 5,
+        "source": "walk-diag",
+        "rect": [
+          3323,
+          52,
+          394,
+          688
+        ],
+        "hand": [
+          3498,
+          437
+        ],
+        "foot": [
+          3534.012064854554,
+          736.0
+        ],
+        "pixelsPerWorld": 11.656652360515022
+      },
+      {
+        "direction": "northeast",
+        "slot": 0,
+        "source": "walk-diag",
+        "rect": [
+          113,
+          837,
+          413,
+          671
+        ],
+        "hand": [
+          458,
+          1217
+        ],
+        "foot": [
+          344.94166666666666,
+          1500.0
+        ],
+        "pixelsPerWorld": 11.258620689655173
+      },
+      {
+        "direction": "northeast",
+        "slot": 1,
+        "source": "walk-diag",
+        "rect": [
+          767,
+          838,
+          385,
+          670
+        ],
+        "hand": [
+          1112,
+          1218
+        ],
+        "foot": [
+          998.9266094420601,
+          1502.0
+        ],
+        "pixelsPerWorld": 11.227467811158798
+      },
+      {
+        "direction": "northeast",
+        "slot": 2,
+        "source": "walk-diag",
+        "rect": [
+          1514,
+          1146,
+          172,
+          362
+        ],
+        "hand": [
+          1663.6,
+          1363.2
+        ],
+        "foot": [
+          1618.0,
+          1507.0
+        ],
+        "pixelsPerWorld": 6.206896551724138
+      },
+      {
+        "direction": "northeast",
+        "slot": 3,
+        "source": "walk-diag",
+        "rect": [
+          2015,
+          818,
+          450,
+          690
+        ],
+        "hand": [
+          2435,
+          1073
+        ],
+        "foot": [
+          2256.116666666667,
+          1503.0
+        ],
+        "pixelsPerWorld": 11.620689655172415
+      },
+      {
+        "direction": "northeast",
+        "slot": 4,
+        "source": "walk-diag",
+        "rect": [
+          2686,
+          855,
+          387,
+          653
+        ],
+        "hand": [
+          3031,
+          1235
+        ],
+        "foot": [
+          2930.76895565093,
+          1502.0
+        ],
+        "pixelsPerWorld": 10.901287553648068
+      },
+      {
+        "direction": "northeast",
+        "slot": 5,
+        "source": "walk-diag",
+        "rect": [
+          3327,
+          838,
+          385,
+          670
+        ],
+        "hand": [
+          3672,
+          1218
+        ],
+        "foot": [
+          3558.92660944206,
+          1502.0
+        ],
+        "pixelsPerWorld": 11.227467811158798
+      }
+    ],
+    "preservedIdle": [
+      {
+        "direction": "south",
+        "rgbaSha256": "2c8ae1e9895aed16c622a53f6da887276b2c60fa82ce6e8e741bccd6cf1b8b1e",
+        "width": 144,
+        "height": 314,
+        "pixelsPerWorld": 5.379310344827586
+      },
+      {
+        "direction": "north",
+        "rgbaSha256": "adf898ad5f11ce3dcca3134481fbc222f437b2217d3fc7d8752040648fb3b657",
+        "width": 148,
+        "height": 306,
+        "pixelsPerWorld": 5.241379310344827
+      },
+      {
+        "direction": "east",
+        "rgbaSha256": "4fcf354eb1b807cf6d461d1ba91415eff69b7009a9a80b31af7c6e3eb9d09026",
+        "width": 104,
+        "height": 270,
+        "pixelsPerWorld": 4.557471
+      },
+      {
+        "direction": "southeast",
+        "rgbaSha256": "b88e2b74599c2660288d937f19019391eaf77b60765e19120892d0303f54a824",
+        "width": 160,
+        "height": 362,
+        "pixelsPerWorld": 6.206896551724138
+      },
+      {
+        "direction": "northeast",
+        "rgbaSha256": "7f28d530979f4a676a2d95257c0d3e965be292f0bf427c5ffaee80fc346e2e70",
+        "width": 172,
+        "height": 362,
+        "pixelsPerWorld": 6.206896551724138
+      }
+    ]
+  },
+  "nativeSources": {
+    "south": {
+      "file": "exec-9a0db1c6-37a2-49f7-8137-fa5208f410a8.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "2c7b360cff8f033708eef5586bfa572d7a05959d0b5f0030bfdf41ebdeabe9c9"
+    },
+    "north": {
+      "file": "exec-d67705b1-79d1-498f-b501-f8a3391625ac.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "69841844a1d5e57be1e3e52685ecc03eac4257b2e5943d2ccda44ef615aca45d"
+    },
+    "east": {
+      "file": "exec-23c564fe-07b9-487a-8a4c-fad0e2e09286.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "4801aac48e6ca083a2ae963d168c74db70f5a5521a579452a29c6b55f0f35261"
+    },
+    "southeast": {
+      "file": "exec-e8d4e5c1-3c01-4cdb-83fc-5ffb86fd571e.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "0e5de835e50021f481d424c99ebb557e9f7cbe486d6312f981d0b822f4a2a7eb"
+    },
+    "northeast": {
+      "file": "exec-ee2ead5e-5e8f-4516-9395-9d74b9d70c5a.png",
+      "size": [
+        2172,
+        724
+      ],
+      "sha256": "b9d57000c8362887cd514a8a0b1b31bbd8878dc3ac39c0ac0ecc07763dd37e81"
+    }
+  }
+}
